@@ -1,0 +1,26 @@
+{
+  "duplicateWindowDays": 30,
+  "duplicateSimilarity": 0.9,
+  "forbiddenWords": [],
+  "alertWords": ["arnaque", "scam", "danger", "avocat", "lawyer", "plainte", "fraude", "fraud", "presse", "journaliste"],
+  "spamSigns": ["crypto", "earn money", "gagnez de l'argent", "dm me", "whatsapp", "telegram @"],
+  "categories": {
+    "urgent": { "priority": 1, "answer": false },
+    "complaint": { "priority": 2, "answer": true },
+    "question": { "priority": 3, "answer": true },
+    "lead": { "priority": 3, "answer": true },
+    "praise": { "priority": 5, "answer": true },
+    "mention": { "priority": 4, "answer": false },
+    "spam": { "priority": 9, "answer": false },
+    "abuse": { "priority": 8, "answer": false }
+  },
+  "cannedAnswers": {
+    "complaint": "We are sorry to read this. Could you write to us in private with the details, so we can look into it?",
+    "question": "",
+    "praise": "Thank you!"
+  },
+  "crisis": {
+    "notify": "",
+    "holdingMessage": "We have seen your message and are looking into it. We will come back to you shortly."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "statistics": {
+    "paging": { "start": 0, "count": 10, "links": [] },
+    "elements": [
+      { "totalShareStatistics": { "impressionCount": 18400, "likeCount": 420, "commentCount": 38, "shareCount": 51, "clickCount": 290, "engagement": 0.0434, "uniqueImpressionsCount": 15100 }, "organizationalEntity": "urn:li:organization:5550001" },
+      { "totalShareStatistics": { "impressionCount": 6200, "likeCount": 180, "commentCount": 22, "shareCount": 30, "clickCount": 140, "engagement": 0.06 }, "share": "urn:li:ugcPost:7190000000000000001", "organizationalEntity": "urn:li:organization:5550001" },
+      { "totalShareStatistics": { "impressionCount": 2100, "likeCount": 40, "commentCount": 3, "shareCount": 5, "clickCount": 25, "engagement": 0.0348 }, "share": "urn:li:ugcPost:7190000000000000002", "organizationalEntity": "urn:li:organization:5550001" }
+    ]
+  },
+  "followers": { "firstDegreeSize": 2900 },
+  "posts": {
+    "paging": { "start": 0, "count": 10, "links": [] },
+    "elements": [
+      { "id": "urn:li:ugcPost:7190000000000000001", "author": "urn:li:organization:5550001", "commentary": "Our autumn offer, explained in three numbers.", "publishedAt": 1793174400000, "createdAt": 1793174400000, "lifecycleState": "PUBLISHED" },
+      { "id": "urn:li:ugcPost:7190000000000000002", "author": "urn:li:organization:5550001", "commentary": "We are hiring a support engineer in Lyon.", "publishedAt": 1792497600000, "createdAt": 1792497600000, "lifecycleState": "PUBLISHED" }
+    ]
+  }
+}

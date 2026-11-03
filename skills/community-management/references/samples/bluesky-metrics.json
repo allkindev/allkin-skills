@@ -1,0 +1,10 @@
+{
+  "profile": { "did": "did:plc:exampleshop0000", "handle": "exampleshop.bsky.social", "displayName": "Example Shop", "followersCount": 1500, "followsCount": 200, "postsCount": 312 },
+  "feed": {
+    "cursor": "2026-10-20T00:00:00.000Z",
+    "feed": [
+      { "post": { "uri": "at://did:plc:exampleshop0000/app.bsky.feed.post/3kshopaaa0001", "cid": "bafyroot", "author": { "did": "did:plc:exampleshop0000", "handle": "exampleshop.bsky.social", "displayName": "Example Shop" }, "record": { "$type": "app.bsky.feed.post", "text": "Our autumn offer is live: 20% off every plan until the 15th.", "createdAt": "2026-10-28T08:00:00.000Z" }, "replyCount": 4, "repostCount": 12, "likeCount": 58, "quoteCount": 2, "indexedAt": "2026-10-28T08:00:01.000Z" } },
+      { "post": { "uri": "at://did:plc:exampleshop0000/app.bsky.feed.post/3kshopbbb0002", "cid": "bafy2", "author": { "did": "did:plc:exampleshop0000", "handle": "exampleshop.bsky.social" }, "record": { "$type": "app.bsky.feed.post", "text": "Behind the scenes: how we test every release.", "createdAt": "2026-10-21T12:05:00.000Z" }, "replyCount": 1, "repostCount": 3, "likeCount": 20, "quoteCount": 0, "indexedAt": "2026-10-21T12:05:01.000Z" } }
+    ]
+  }
+}

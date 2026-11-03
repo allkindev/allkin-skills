@@ -1,0 +1,37 @@
+{
+  "insights": {
+    "data": [
+      { "name": "page_impressions", "period": "days_28", "values": [{ "value": 31000, "end_time": "2026-11-01T07:00:00+0000" }], "title": "28 Days Total Impressions", "id": "100200300/insights/page_impressions/days_28" },
+      { "name": "page_post_engagements", "period": "days_28", "values": [{ "value": 870, "end_time": "2026-11-01T07:00:00+0000" }], "id": "100200300/insights/page_post_engagements/days_28" },
+      { "name": "page_fans", "period": "lifetime", "values": [{ "value": 2300, "end_time": "2026-11-01T07:00:00+0000" }], "id": "100200300/insights/page_fans/lifetime" }
+    ],
+    "paging": { "previous": "…", "next": "…" }
+  },
+  "posts": {
+    "data": [
+      {
+        "id": "100200300_400500600",
+        "message": "Our autumn offer is live: 20% off every plan until the 15th.",
+        "created_time": "2026-10-28T08:00:30+0000",
+        "permalink_url": "https://www.facebook.com/100200300/posts/400500600",
+        "insights": { "data": [
+          { "name": "post_impressions", "period": "lifetime", "values": [{ "value": 5200 }] },
+          { "name": "post_engaged_users", "period": "lifetime", "values": [{ "value": 310 }] }
+        ] },
+        "likes": { "data": [], "summary": { "total_count": 140, "can_like": true, "has_liked": false } },
+        "comments": { "data": [], "summary": { "order": "ranked", "total_count": 18, "can_comment": true } },
+        "shares": { "count": 22 }
+      },
+      {
+        "id": "100200300_400500601",
+        "message": "Meet the team at the Lyon fair, hall 3.",
+        "created_time": "2026-10-20T16:45:00+0000",
+        "permalink_url": "https://www.facebook.com/100200300/posts/400500601",
+        "insights": { "data": [ { "name": "post_impressions", "period": "lifetime", "values": [{ "value": 1900 }] } ] },
+        "likes": { "data": [], "summary": { "total_count": 40 } },
+        "comments": { "data": [], "summary": { "total_count": 3 } }
+      }
+    ],
+    "paging": { "cursors": { "before": "Q", "after": "R" } }
+  }
+}

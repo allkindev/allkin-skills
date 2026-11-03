@@ -1,0 +1,13 @@
+{
+  "channel": {
+    "kind": "youtube#channelListResponse", "etag": "sample", "pageInfo": { "totalResults": 1, "resultsPerPage": 5 },
+    "items": [ { "kind": "youtube#channel", "etag": "sample", "id": "UCsampleChannel0000000001", "statistics": { "viewCount": "182000", "subscriberCount": "4100", "hiddenSubscriberCount": false, "videoCount": "37" } } ]
+  },
+  "videos": {
+    "kind": "youtube#videoListResponse", "etag": "sample", "pageInfo": { "totalResults": 2, "resultsPerPage": 2 },
+    "items": [
+      { "kind": "youtube#video", "etag": "sample", "id": "dQsampleVid01", "snippet": { "publishedAt": "2026-10-25T15:00:00Z", "channelId": "UCsampleChannel0000000001", "title": "Version 3: what changed, in 8 minutes", "description": "…", "channelTitle": "Example Shop" }, "statistics": { "viewCount": "9400", "likeCount": "310", "favoriteCount": "0", "commentCount": "41" } },
+      { "kind": "youtube#video", "etag": "sample", "id": "dQsampleVid02", "snippet": { "publishedAt": "2026-10-11T15:00:00Z", "channelId": "UCsampleChannel0000000001", "title": "Workshop tour", "description": "…", "channelTitle": "Example Shop" }, "statistics": { "viewCount": "2200", "likeCount": "88", "favoriteCount": "0", "commentCount": "9" } }
+    ]
+  }
+}

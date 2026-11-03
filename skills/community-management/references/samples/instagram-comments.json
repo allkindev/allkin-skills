@@ -1,0 +1,8 @@
+{
+  "postId": "17900000000000001",
+  "data": [
+    { "id": "17910000000000001", "text": "Where can I buy this? 😍", "username": "sample_shopper", "timestamp": "2026-11-01T06:50:00+0000" },
+    { "id": "17910000000000002", "text": "Déçu, le colis est arrivé abîmé et personne ne répond.", "username": "client_exemple", "timestamp": "2026-11-01T11:20:00+0000" }
+  ],
+  "paging": { "cursors": { "before": "QVFI", "after": "QVFJ" } }
+}

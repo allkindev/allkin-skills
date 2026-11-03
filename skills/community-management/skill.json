@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "communication",
+  "locales": {
+    "en": {
+      "name": "Community management",
+      "description": "Run your social networks with an agent: editorial line, calendar, posts adapted and checked for each network, comments triaged and answered, figures and reports. Publishing goes through the networks' services, each post approved by you."
+    },
+    "fr": {
+      "name": "Gestion de communauté",
+      "description": "Animez vos réseaux sociaux avec un agent : ligne éditoriale, calendrier, publications déclinées et vérifiées par réseau, commentaires triés et répondus, chiffres et rapports. La publication passe par les services des réseaux, chaque envoi approuvé par vous."
+    },
+    "es": {
+      "name": "Gestión de comunidad",
+      "description": "Anime sus redes sociales con un agente: línea editorial, calendario, publicaciones adaptadas y comprobadas por red, comentarios clasificados y respondidos, cifras e informes. La publicación pasa por los servicios de las redes, cada envío aprobado por usted."
+    },
+    "de": {
+      "name": "Community-Management",
+      "description": "Betreiben Sie Ihre sozialen Netzwerke mit einem Agenten: redaktionelle Linie, Kalender, pro Netzwerk angepasste und geprüfte Beiträge, sortierte und beantwortete Kommentare, Zahlen und Berichte. Veröffentlicht wird über die Services der Netzwerke, jeder Beitrag von Ihnen freigegeben."
+    }
+  }
+}

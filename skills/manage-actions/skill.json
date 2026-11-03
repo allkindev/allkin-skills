@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "operations",
+  "locales": {
+    "en": {
+      "name": "Manage actions",
+      "description": "Create, read and delete Allkin's actions — at a time or on an event of the event log —, each one approved by you. A second key on top of the right “Can schedule actions”, never a wider right."
+    },
+    "fr": {
+      "name": "Gérer les actions",
+      "description": "Créer, relire et supprimer les actions d'Allkin — à heure fixe ou sur un événement du journal —, chacune approuvée par vous. Une seconde clé en plus du droit « Peut planifier des actions », jamais un droit de plus."
+    },
+    "es": {
+      "name": "Gestionar acciones",
+      "description": "Crear, consultar y eliminar las acciones de Allkin — a una hora o ante un evento del registro —, cada una aprobada por ti. Una segunda llave además del derecho «Puede programar acciones», nunca un derecho más."
+    },
+    "de": {
+      "name": "Aktionen verwalten",
+      "description": "Aktionen von Allkin anlegen, lesen und löschen – zu einer Zeit oder bei einem Ereignis des Protokolls –, jede von dir freigegeben. Ein zweiter Schlüssel zusätzlich zum Recht „Darf Aktionen planen“, nie ein zusätzliches Recht."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "1.0.3",
+  "author": "Allkin",
+  "category": "organisation",
+  "locales": {
+    "en": {
+      "name": "Meeting notes",
+      "description": "Minutes from a transcript or rough notes: decisions, actions with owners and deadlines, open questions, unclear passages to check."
+    },
+    "fr": {
+      "name": "Compte rendu de réunion",
+      "description": "Un compte rendu depuis une transcription ou des notes brutes : décisions, actions avec responsable et échéance, questions ouvertes, passages à vérifier."
+    },
+    "es": {
+      "name": "Acta de reunión",
+      "description": "Un acta a partir de una transcripción o de notas sueltas: decisiones, acciones con responsable y plazo, preguntas abiertas, pasajes por comprobar."
+    },
+    "de": {
+      "name": "Besprechungsprotokoll",
+      "description": "Ein Protokoll aus einem Transkript oder groben Notizen: Entscheidungen, Aufgaben mit Verantwortlichen und Fristen, offene Fragen, zu prüfende Stellen."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "5100001", "type": "mention", "created_at": "2026-11-01T08:20:00.000Z",
+    "account": { "id": "33001", "username": "pauline_sample", "acct": "pauline_sample@sample.social", "display_name": "Pauline (fictitious)", "url": "https://sample.social/@pauline_sample" },
+    "status": {
+      "id": "115400000000000001", "created_at": "2026-11-01T08:19:58.000Z", "in_reply_to_id": "115390000000000000", "in_reply_to_account_id": "100",
+      "url": "https://sample.social/@pauline_sample/115400000000000001",
+      "content": "<p><span class=\"h-card\"><a href=\"https://example.social/@exampleshop\" class=\"u-url mention\">@<span>exampleshop</span></a></span> est-ce que la version 3 marche encore sur un vieux Mac&nbsp;?</p>",
+      "replies_count": 0, "reblogs_count": 0, "favourites_count": 1
+    }
+  },
+  {
+    "id": "5100002", "type": "mention", "created_at": "2026-11-01T12:00:00.000Z",
+    "account": { "id": "33002", "username": "tom_sample", "acct": "tom_sample", "display_name": "Tom Sample", "url": "https://example.social/@tom_sample" },
+    "status": {
+      "id": "115400000000000002", "created_at": "2026-11-01T11:59:40.000Z", "in_reply_to_id": null, "in_reply_to_account_id": null,
+      "url": "https://example.social/@tom_sample/115400000000000002",
+      "content": "<p>Switched to <span class=\"h-card\"><a href=\"https://example.social/@exampleshop\" class=\"u-url mention\">@<span>exampleshop</span></a></span> last month &amp; no regrets.</p>",
+      "replies_count": 2, "reblogs_count": 3, "favourites_count": 9
+    }
+  },
+  { "id": "5100003", "type": "favourite", "created_at": "2026-11-01T12:30:00.000Z", "account": { "id": "33003", "acct": "liker_sample" }, "status": { "id": "115390000000000000", "content": "<p>ours</p>" } }
+]

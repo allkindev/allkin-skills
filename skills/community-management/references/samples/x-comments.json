@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "id": "1788001000000000001",
+      "text": "@exampleshop Is the autumn offer still available next week? Thanks!",
+      "author_id": "9001",
+      "created_at": "2026-11-01T08:12:00.000Z",
+      "conversation_id": "1787990000000000000",
+      "in_reply_to_user_id": "123",
+      "referenced_tweets": [{ "type": "replied_to", "id": "1787990000000000000" }],
+      "public_metrics": { "like_count": 2, "reply_count": 0, "retweet_count": 0, "quote_count": 0, "impression_count": 140, "bookmark_count": 0 },
+      "edit_history_tweet_ids": ["1788001000000000001"]
+    },
+    {
+      "id": "1788001000000000002",
+      "text": "Tried @exampleshop for a month, honestly great support.",
+      "author_id": "9002",
+      "created_at": "2026-11-01T09:40:00.000Z",
+      "conversation_id": "1788001000000000002",
+      "public_metrics": { "like_count": 11, "reply_count": 1, "retweet_count": 2, "quote_count": 0, "impression_count": 900, "bookmark_count": 1 },
+      "edit_history_tweet_ids": ["1788001000000000002"]
+    }
+  ],
+  "includes": {
+    "users": [
+      { "id": "9001", "name": "Marion Dupont (fictitious)", "username": "marion_sample" },
+      { "id": "9002", "name": "Lucas Example", "username": "lucas_sample" }
+    ]
+  },
+  "meta": { "result_count": 2, "newest_id": "1788001000000000002", "oldest_id": "1788001000000000001" }
+}

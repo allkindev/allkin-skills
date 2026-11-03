@@ -1,0 +1,23 @@
+{
+  "version": "1.0.3",
+  "author": "Allkin",
+  "category": "writing",
+  "locales": {
+    "en": {
+      "name": "Markdown tables",
+      "description": "Comparisons and option lists as clean Markdown tables: when a table fits, how narrow to keep it, how to align and introduce it."
+    },
+    "fr": {
+      "name": "Tableaux Markdown",
+      "description": "Comparaisons et listes d'options en tableaux Markdown propres : quand un tableau convient, quelle largeur garder, comment l'aligner et l'introduire."
+    },
+    "es": {
+      "name": "Tablas Markdown",
+      "description": "Comparaciones y listas de opciones en tablas Markdown limpias: cuándo conviene una tabla, qué anchura mantener, cómo alinearla e introducirla."
+    },
+    "de": {
+      "name": "Markdown-Tabellen",
+      "description": "Vergleiche und Optionslisten als saubere Markdown-Tabellen: wann eine Tabelle passt, wie schmal sie bleibt, wie man sie ausrichtet und einleitet."
+    }
+  }
+}

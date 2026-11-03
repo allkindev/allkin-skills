@@ -1,0 +1,39 @@
+{
+  "kind": "youtube#commentThreadListResponse",
+  "etag": "sample",
+  "pageInfo": { "totalResults": 2, "resultsPerPage": 20 },
+  "items": [
+    {
+      "kind": "youtube#commentThread", "etag": "sample", "id": "UgxSampleComment0001",
+      "snippet": {
+        "channelId": "UCsampleChannel0000000001", "videoId": "dQsampleVid01", "canReply": true, "totalReplyCount": 1, "isPublic": true,
+        "topLevelComment": {
+          "kind": "youtube#comment", "etag": "sample", "id": "UgxSampleComment0001",
+          "snippet": {
+            "channelId": "UCsampleChannel0000000001", "videoId": "dQsampleVid01",
+            "textDisplay": "How do I update from version 2? The menu looks different <b>here</b>.",
+            "textOriginal": "How do I update from version 2? The menu looks different here.",
+            "authorDisplayName": "Sample Viewer", "authorProfileImageUrl": "https://yt3.ggpht.com/sample", "authorChannelUrl": "http://www.youtube.com/channel/UCviewerSample01",
+            "authorChannelId": { "value": "UCviewerSample01" }, "canRate": true, "viewerRating": "none", "likeCount": 3,
+            "publishedAt": "2026-11-01T05:10:00Z", "updatedAt": "2026-11-01T05:10:00Z"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#commentThread", "etag": "sample", "id": "UgxSampleComment0002",
+      "snippet": {
+        "channelId": "UCsampleChannel0000000001", "videoId": "dQsampleVid01", "canReply": true, "totalReplyCount": 0, "isPublic": true,
+        "topLevelComment": {
+          "kind": "youtube#comment", "etag": "sample", "id": "UgxSampleComment0002",
+          "snippet": {
+            "videoId": "dQsampleVid01",
+            "textDisplay": "Excellent tutorial, thank you!", "textOriginal": "Excellent tutorial, thank you!",
+            "authorDisplayName": "Another Sample", "authorChannelId": { "value": "UCviewerSample02" }, "likeCount": 0,
+            "publishedAt": "2026-11-01T06:00:00Z", "updatedAt": "2026-11-01T06:00:00Z"
+          }
+        }
+      }
+    }
+  ]
+}

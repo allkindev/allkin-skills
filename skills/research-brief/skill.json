@@ -1,0 +1,23 @@
+{
+  "version": "1.0.2",
+  "author": "Allkin",
+  "category": "analysis",
+  "locales": {
+    "en": {
+      "name": "Research brief",
+      "description": "A sourced, dated answer from the web: wide search, primary pages read, claims with their source, disagreements and gaps stated. Needs the web right."
+    },
+    "fr": {
+      "name": "Synthèse de recherche",
+      "description": "Une réponse sourcée et datée depuis le web : recherche large, pages primaires lues, affirmations avec leur source, désaccords et manques énoncés. Nécessite le droit web."
+    },
+    "es": {
+      "name": "Síntesis de investigación",
+      "description": "Una respuesta con fuentes y fecha desde la web: búsqueda amplia, páginas primarias leídas, afirmaciones con su fuente, desacuerdos y lagunas indicados. Requiere el derecho web."
+    },
+    "de": {
+      "name": "Recherche-Briefing",
+      "description": "Eine belegte, datierte Antwort aus dem Web: breite Suche, Primärseiten gelesen, Aussagen mit Quelle, Widersprüche und Lücken benannt. Braucht das Web-Recht."
+    }
+  }
+}

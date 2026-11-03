@@ -1,0 +1,23 @@
+{
+  "paging": { "start": 0, "count": 10, "links": [] },
+  "elements": [
+    {
+      "id": "7200000000000000001",
+      "$URN": "urn:li:comment:(urn:li:ugcPost:7190000000000000001,7200000000000000001)",
+      "actor": "urn:li:person:AbCdEf0001",
+      "actor~": { "localizedFirstName": "Sophie", "localizedLastName": "Exemple", "vanityName": "sophie-exemple-sample" },
+      "message": { "text": "Could you share the pricing for a team of 10?", "attributes": [] },
+      "created": { "actor": "urn:li:person:AbCdEf0001", "time": 1793520000000 },
+      "lastModified": { "actor": "urn:li:person:AbCdEf0001", "time": 1793520000000 },
+      "object": "urn:li:ugcPost:7190000000000000001"
+    },
+    {
+      "id": "7200000000000000002",
+      "$URN": "urn:li:comment:(urn:li:ugcPost:7190000000000000001,7200000000000000002)",
+      "actor": "urn:li:person:GhIjKl0002",
+      "message": { "text": "Great read, thanks for sharing the numbers.", "attributes": [] },
+      "created": { "actor": "urn:li:person:GhIjKl0002", "time": 1793526300000 },
+      "object": "urn:li:ugcPost:7190000000000000001"
+    }
+  ]
+}

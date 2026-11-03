@@ -1,0 +1,23 @@
+{
+  "version": "1.0.2",
+  "author": "Allkin",
+  "category": "writing",
+  "locales": {
+    "en": {
+      "name": "Clear answers",
+      "description": "The point first, short sentences, lists for parallel items, numbers and code set apart, no padding: answers read once on a screen or a phone."
+    },
+    "fr": {
+      "name": "Réponses claires",
+      "description": "L'essentiel d'abord, phrases courtes, listes pour les éléments parallèles, chiffres et code à part, aucun remplissage : des réponses lues une fois, sur écran ou téléphone."
+    },
+    "es": {
+      "name": "Respuestas claras",
+      "description": "Lo esencial primero, frases cortas, listas para elementos paralelos, cifras y código aparte, sin relleno: respuestas que se leen una vez, en pantalla o en el móvil."
+    },
+    "de": {
+      "name": "Klare Antworten",
+      "description": "Das Wesentliche zuerst, kurze Sätze, Listen für parallele Punkte, Zahlen und Code abgesetzt, kein Füllstoff: Antworten, die einmal gelesen werden, am Bildschirm oder Telefon."
+    }
+  }
+}

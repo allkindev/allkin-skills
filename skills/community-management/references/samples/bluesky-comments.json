@@ -1,0 +1,28 @@
+{
+  "cursor": "2026-11-01T07:00:00.000Z",
+  "priority": false,
+  "seenAt": "2026-11-01T12:00:00.000Z",
+  "notifications": [
+    {
+      "uri": "at://did:plc:samplereader0001/app.bsky.feed.post/3ksampleaaa01", "cid": "bafysample01",
+      "author": { "did": "did:plc:samplereader0001", "handle": "reader-sample.bsky.social", "displayName": "Reader Sample" },
+      "reason": "reply", "reasonSubject": "at://did:plc:exampleshop0000/app.bsky.feed.post/3kshopaaa0001",
+      "record": { "$type": "app.bsky.feed.post", "text": "Does the offer apply to the yearly plan too?", "createdAt": "2026-11-01T07:45:00.000Z",
+        "reply": { "root": { "uri": "at://did:plc:exampleshop0000/app.bsky.feed.post/3kshopaaa0001", "cid": "bafyroot" }, "parent": { "uri": "at://did:plc:exampleshop0000/app.bsky.feed.post/3kshopaaa0001", "cid": "bafyroot" } } },
+      "isRead": false, "indexedAt": "2026-11-01T07:45:02.000Z"
+    },
+    {
+      "uri": "at://did:plc:samplefan00000002/app.bsky.feed.post/3ksamplebbb02", "cid": "bafysample02",
+      "author": { "did": "did:plc:samplefan00000002", "handle": "fan-sample.bsky.social", "displayName": "" },
+      "reason": "mention",
+      "record": { "$type": "app.bsky.feed.post", "text": "Love what @exampleshop.bsky.social is doing with v3, great work.", "createdAt": "2026-11-01T10:10:00.000Z" },
+      "isRead": false, "indexedAt": "2026-11-01T10:10:03.000Z"
+    },
+    {
+      "uri": "at://did:plc:someone/app.bsky.feed.like/3klike", "cid": "bafylike",
+      "author": { "did": "did:plc:someone", "handle": "someone-sample.bsky.social" },
+      "reason": "like", "reasonSubject": "at://did:plc:exampleshop0000/app.bsky.feed.post/3kshopaaa0001",
+      "record": { "$type": "app.bsky.feed.like", "createdAt": "2026-11-01T10:20:00.000Z" }, "isRead": false, "indexedAt": "2026-11-01T10:20:01.000Z"
+    }
+  ]
+}

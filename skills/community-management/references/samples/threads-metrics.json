@@ -1,0 +1,29 @@
+{
+  "account": {
+    "data": [
+      { "name": "views", "period": "day", "values": [{ "value": 420, "end_time": "2026-10-31T07:00:00+0000" }, { "value": 510, "end_time": "2026-11-01T07:00:00+0000" }], "title": "views" },
+      { "name": "followers_count", "period": "day", "total_value": { "value": 640 }, "title": "followers_count" }
+    ]
+  },
+  "posts": {
+    "data": [
+      {
+        "id": "18000000000000001", "text": "Version 3 is out. Faster, quieter, same price.", "timestamp": "2026-10-29T09:00:00+0000",
+        "permalink": "https://www.threads.net/@exampleshop/post/SampleMno5",
+        "insights": { "data": [
+          { "name": "views", "period": "lifetime", "values": [{ "value": 1800 }] },
+          { "name": "likes", "period": "lifetime", "values": [{ "value": 64 }] },
+          { "name": "replies", "period": "lifetime", "values": [{ "value": 7 }] },
+          { "name": "reposts", "period": "lifetime", "values": [{ "value": 9 }] },
+          { "name": "quotes", "period": "lifetime", "values": [{ "value": 2 }] }
+        ] }
+      },
+      {
+        "id": "18000000000000002", "text": "A thread on what changed in the workshop this year.", "timestamp": "2026-10-22T18:30:00+0000",
+        "permalink": "https://www.threads.net/@exampleshop/post/SamplePqr6",
+        "insights": { "data": [ { "name": "views", "period": "lifetime", "values": [{ "value": 700 }] }, { "name": "likes", "period": "lifetime", "values": [{ "value": 21 }] } ] }
+      }
+    ],
+    "paging": { "cursors": { "before": "QVFI", "after": "QVFJ" } }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "1.0.2",
+  "author": "Allkin",
+  "category": "communication",
+  "locales": {
+    "en": {
+      "name": "E-mail drafting",
+      "description": "Ready-to-send e-mails and replies: the point first, one request, the right register for the recipient, a subject line and a date to answer by."
+    },
+    "fr": {
+      "name": "Rédaction d'e-mails",
+      "description": "Des e-mails et des réponses prêts à envoyer : l'essentiel d'abord, une seule demande, le bon registre pour le destinataire, un objet et une date de réponse."
+    },
+    "es": {
+      "name": "Redacción de correos",
+      "description": "Correos y respuestas listos para enviar: lo esencial primero, una sola petición, el registro adecuado para el destinatario, un asunto y una fecha de respuesta."
+    },
+    "de": {
+      "name": "E-Mails verfassen",
+      "description": "Versandfertige E-Mails und Antworten: das Wesentliche zuerst, eine Bitte, das passende Register für den Empfänger, Betreffzeile und Antwortfrist."
+    }
+  }
+}

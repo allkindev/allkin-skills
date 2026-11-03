@@ -1,0 +1,8 @@
+{
+  "postId": "18000000000000001",
+  "data": [
+    { "id": "18010000000000001", "text": "Is there a student price?", "username": "student_sample", "timestamp": "2026-11-01T09:05:00+0000", "permalink": "https://www.threads.net/@student_sample/post/SampleGhi3" },
+    { "id": "18010000000000002", "text": "Bravo pour cette nouvelle version !", "username": "fan_exemple", "timestamp": "2026-11-01T09:30:00+0000", "permalink": "https://www.threads.net/@fan_exemple/post/SampleJkl4" }
+  ],
+  "paging": { "cursors": { "before": "QVFI", "after": "QVFJ" } }
+}

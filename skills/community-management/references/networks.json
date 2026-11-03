@@ -1,0 +1,141 @@
+{
+  "$comment": "The one source of each network's limits, read by every script. Figures as published by the networks; a change here is a 1.0.N+1 of the skill. Lengths are in characters as the network counts them (see 'counting').",
+  "networks": {
+    "x": {
+      "label": "X",
+      "service": "x",
+      "text": { "max": 280, "premiumMax": 25000, "counting": "x", "urlWeight": 23, "threads": true, "threadNumbering": "n/N", "maxConsecutiveNewlines": 2 },
+      "hashtags": { "max": 3, "recommended": 2, "placement": "inline" },
+      "mentions": { "max": 10 },
+      "links": { "inBody": true, "preview": true },
+      "media": {
+        "image": { "maxCount": 4, "formats": ["jpeg", "png", "gif", "webp"], "maxBytes": 5242880, "minWidth": 600, "maxWidth": 4096, "ratios": ["16:9", "1:1", "4:5"] },
+        "video": { "maxCount": 1, "formats": ["mp4", "mov"], "maxBytes": 536870912, "maxSeconds": 140, "ratios": ["16:9", "1:1", "9:16"] }
+      },
+      "altText": { "max": 1000 },
+      "bestHoursHint": "weekdays 8-10 and 12-13 local"
+    },
+    "facebook": {
+      "label": "Facebook (page)",
+      "service": "meta",
+      "text": { "max": 63206, "recommended": 400, "counting": "plain", "threads": false, "maxConsecutiveNewlines": 3 },
+      "hashtags": { "max": 5, "recommended": 2, "placement": "inline" },
+      "mentions": { "max": 20 },
+      "links": { "inBody": true, "preview": true },
+      "media": {
+        "image": { "maxCount": 10, "formats": ["jpeg", "png", "gif", "webp"], "maxBytes": 4194304, "minWidth": 600, "ratios": ["1.91:1", "1:1", "4:5"] },
+        "video": { "maxCount": 1, "formats": ["mp4", "mov"], "maxBytes": 4294967296, "maxSeconds": 14400, "ratios": ["16:9", "1:1", "9:16", "4:5"] }
+      },
+      "altText": { "max": 1000 }
+    },
+    "instagram": {
+      "label": "Instagram",
+      "service": "meta",
+      "text": { "max": 2200, "recommended": 300, "counting": "plain", "threads": false, "maxConsecutiveNewlines": 2 },
+      "hashtags": { "max": 30, "recommended": 8, "placement": "firstComment" },
+      "mentions": { "max": 20 },
+      "links": { "inBody": false, "preview": false, "note": "links are not clickable in a caption; put them in the bio or a story" },
+      "media": {
+        "required": true,
+        "image": { "maxCount": 10, "formats": ["jpeg", "png"], "maxBytes": 8388608, "minWidth": 320, "maxWidth": 1440, "ratios": ["1:1", "4:5", "1.91:1"] },
+        "video": { "maxCount": 1, "formats": ["mp4", "mov"], "maxBytes": 1073741824, "minSeconds": 3, "maxSeconds": 900, "ratios": ["9:16", "1:1", "4:5"] }
+      },
+      "altText": { "max": 1000 }
+    },
+    "threads": {
+      "label": "Threads",
+      "service": "meta",
+      "text": { "max": 500, "counting": "plain", "threads": true, "threadNumbering": "none", "maxConsecutiveNewlines": 2 },
+      "hashtags": { "max": 1, "recommended": 1, "placement": "inline", "note": "one topic tag per post" },
+      "mentions": { "max": 10 },
+      "links": { "inBody": true, "preview": true },
+      "media": {
+        "image": { "maxCount": 20, "formats": ["jpeg", "png"], "maxBytes": 8388608, "ratios": ["1:1", "4:5", "16:9"] },
+        "video": { "maxCount": 1, "formats": ["mp4", "mov"], "maxBytes": 1073741824, "maxSeconds": 300 }
+      },
+      "altText": { "max": 1000 }
+    },
+    "linkedin": {
+      "label": "LinkedIn",
+      "service": "linkedin",
+      "text": { "max": 3000, "recommended": 1300, "foldAt": 210, "counting": "plain", "threads": false, "maxConsecutiveNewlines": 2 },
+      "hashtags": { "max": 5, "recommended": 3, "placement": "end" },
+      "mentions": { "max": 10 },
+      "links": { "inBody": false, "preview": true, "note": "a link in the body lowers the reach; put it in the first comment" },
+      "media": {
+        "image": { "maxCount": 9, "formats": ["jpeg", "png", "gif"], "maxBytes": 8388608, "ratios": ["1.91:1", "1:1", "4:5"] },
+        "video": { "maxCount": 1, "formats": ["mp4"], "maxBytes": 5368709120, "minSeconds": 3, "maxSeconds": 900, "ratios": ["16:9", "1:1", "9:16"] },
+        "document": { "formats": ["pdf"], "maxBytes": 104857600, "maxPages": 300 }
+      },
+      "altText": { "max": 300 }
+    },
+    "youtube": {
+      "label": "YouTube",
+      "service": "youtube",
+      "text": { "max": 5000, "titleMax": 100, "counting": "plain", "threads": false, "maxConsecutiveNewlines": 3 },
+      "hashtags": { "max": 15, "recommended": 3, "placement": "end", "note": "the first three show above the title" },
+      "mentions": { "max": 0 },
+      "links": { "inBody": true, "preview": false },
+      "media": {
+        "required": true,
+        "video": { "maxCount": 1, "formats": ["mp4", "mov", "webm"], "maxBytes": 274877906944, "maxSeconds": 43200, "ratios": ["16:9", "9:16"] },
+        "thumbnail": { "formats": ["jpeg", "png"], "maxBytes": 2097152, "ratios": ["16:9"], "minWidth": 1280 }
+      },
+      "tags": { "maxTotalChars": 500 }
+    },
+    "tiktok": {
+      "label": "TikTok",
+      "service": "tiktok",
+      "text": { "max": 4000, "recommended": 150, "counting": "plain", "threads": false },
+      "hashtags": { "max": 10, "recommended": 4, "placement": "inline" },
+      "mentions": { "max": 10 },
+      "links": { "inBody": false, "preview": false },
+      "media": {
+        "required": true,
+        "video": { "maxCount": 1, "formats": ["mp4", "mov", "webm"], "maxBytes": 4294967296, "minSeconds": 3, "maxSeconds": 600, "ratios": ["9:16"] },
+        "image": { "maxCount": 35, "formats": ["jpeg", "webp"], "maxBytes": 20971520 }
+      }
+    },
+    "mastodon": {
+      "label": "Mastodon",
+      "service": "mastodon",
+      "text": { "max": 500, "counting": "mastodon", "urlWeight": 23, "threads": true, "threadNumbering": "n/N", "maxConsecutiveNewlines": 2, "note": "the instance may allow more; 500 is the default" },
+      "hashtags": { "max": 10, "recommended": 3, "placement": "end" },
+      "mentions": { "max": 10 },
+      "links": { "inBody": true, "preview": true },
+      "media": {
+        "image": { "maxCount": 4, "formats": ["jpeg", "png", "gif", "webp"], "maxBytes": 16777216 },
+        "video": { "maxCount": 1, "formats": ["mp4", "mov", "webm"], "maxBytes": 103809024, "maxSeconds": 3600 }
+      },
+      "altText": { "max": 1500 }
+    },
+    "bluesky": {
+      "label": "Bluesky",
+      "service": "bluesky",
+      "text": { "max": 300, "counting": "graphemes", "threads": true, "threadNumbering": "n/N", "maxConsecutiveNewlines": 2 },
+      "hashtags": { "max": 5, "recommended": 2, "placement": "end" },
+      "mentions": { "max": 10 },
+      "links": { "inBody": true, "preview": true },
+      "media": {
+        "image": { "maxCount": 4, "formats": ["jpeg", "png", "gif", "webp"], "maxBytes": 1000000 },
+        "video": { "maxCount": 1, "formats": ["mp4"], "maxBytes": 52428800, "maxSeconds": 60 }
+      },
+      "altText": { "max": 2000 }
+    },
+    "pinterest": {
+      "label": "Pinterest",
+      "service": "pinterest",
+      "text": { "max": 500, "titleMax": 100, "counting": "plain", "threads": false },
+      "hashtags": { "max": 20, "recommended": 3, "placement": "end" },
+      "mentions": { "max": 0 },
+      "links": { "inBody": false, "preview": false, "note": "the link is a field of the pin, not of the text" },
+      "media": {
+        "required": true,
+        "image": { "maxCount": 5, "formats": ["jpeg", "png"], "maxBytes": 20971520, "ratios": ["2:3", "1:1"], "minWidth": 600 },
+        "video": { "maxCount": 1, "formats": ["mp4", "mov"], "maxBytes": 2147483648, "minSeconds": 4, "maxSeconds": 900, "ratios": ["9:16", "1:1", "2:3"] }
+      },
+      "altText": { "max": 500 }
+    }
+  },
+  "ratioTolerance": 0.03
+}

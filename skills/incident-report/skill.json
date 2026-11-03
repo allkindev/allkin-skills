@@ -1,0 +1,23 @@
+{
+  "version": "1.0.2",
+  "author": "Allkin",
+  "category": "operations",
+  "locales": {
+    "en": {
+      "name": "Incident report",
+      "description": "Observe, one hypothesis at a time, the smallest reversible fix, then confirm; a dated incident report with timeline, root cause and follow-ups."
+    },
+    "fr": {
+      "name": "Rapport d'incident",
+      "description": "Observer, une hypothèse à la fois, la correction réversible la plus petite, puis confirmer ; un rapport d'incident daté avec chronologie, cause et suites."
+    },
+    "es": {
+      "name": "Informe de incidente",
+      "description": "Observar, una hipótesis a la vez, la corrección reversible más pequeña, luego confirmar; un informe de incidente fechado con cronología, causa raíz y seguimiento."
+    },
+    "de": {
+      "name": "Störungsbericht",
+      "description": "Beobachten, eine Hypothese nach der anderen, die kleinste umkehrbare Maßnahme, dann bestätigen; ein datierter Störungsbericht mit Zeitlinie, Ursache und Folgemaßnahmen."
+    }
+  }
+}

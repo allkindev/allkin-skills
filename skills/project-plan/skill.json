@@ -1,0 +1,23 @@
+{
+  "version": "1.0.2",
+  "author": "Allkin",
+  "category": "organisation",
+  "locales": {
+    "en": {
+      "name": "Project plan",
+      "description": "A goal turned into milestones, tasks, risks and a plan file the agent keeps up to date as the user reports progress."
+    },
+    "fr": {
+      "name": "Plan de projet",
+      "description": "Un objectif transformé en jalons, tâches, risques et un fichier de plan que l'agent tient à jour au fil des avancées."
+    },
+    "es": {
+      "name": "Plan de proyecto",
+      "description": "Un objetivo convertido en hitos, tareas, riesgos y un archivo de plan que el agente mantiene al día según avanza el usuario."
+    },
+    "de": {
+      "name": "Projektplan",
+      "description": "Ein Ziel, umgesetzt in Meilensteine, Aufgaben, Risiken und eine Plandatei, die der Agent mit den gemeldeten Fortschritten aktuell hält."
+    }
+  }
+}

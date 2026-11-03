@@ -1,0 +1,23 @@
+{
+  "version": "1.0.2",
+  "author": "Allkin",
+  "category": "code",
+  "locales": {
+    "en": {
+      "name": "Code review",
+      "description": "Findings ranked by severity, each with file, line and a concrete failure case; correctness and security first, style last."
+    },
+    "fr": {
+      "name": "Revue de code",
+      "description": "Des constats classés par gravité, chacun avec fichier, ligne et un cas d'échec concret ; exactitude et sécurité d'abord, style en dernier."
+    },
+    "es": {
+      "name": "Revisión de código",
+      "description": "Hallazgos ordenados por gravedad, cada uno con archivo, línea y un caso de fallo concreto; corrección y seguridad primero, estilo al final."
+    },
+    "de": {
+      "name": "Code-Review",
+      "description": "Befunde nach Schwere geordnet, jeder mit Datei, Zeile und einem konkreten Fehlerfall; Korrektheit und Sicherheit zuerst, Stil zuletzt."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "user": {
+    "data": { "id": "123", "name": "Example Shop", "username": "exampleshop", "public_metrics": { "followers_count": 1200, "following_count": 80, "tweet_count": 540, "listed_count": 3 } }
+  },
+  "tweets": {
+    "data": [
+      { "id": "1787990000000000000", "text": "Our autumn offer is live: 20% off every plan until the 15th.", "created_at": "2026-10-28T08:00:12.000Z", "public_metrics": { "like_count": 80, "reply_count": 10, "retweet_count": 25, "quote_count": 5, "impression_count": 4000, "bookmark_count": 12 } },
+      { "id": "1787700000000000000", "text": "Behind the scenes: how we test every release.", "created_at": "2026-10-21T12:05:00.000Z", "public_metrics": { "like_count": 30, "reply_count": 2, "retweet_count": 4, "quote_count": 0, "impression_count": 2100, "bookmark_count": 3 } }
+    ],
+    "meta": { "result_count": 2 }
+  }
+}
