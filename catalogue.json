@@ -9,7 +9,7 @@
       "description": "Use for every answer longer than a few lines, and whenever the user asks to shorten, clarify, restructure or \"make it readable\". Rules for answers that are read once on a screen or a phone: the point first, short sentences, lists for parallel items, no padding.",
       "author": "Allkin",
       "category": "writing",
-      "updatedAt": "2026-11-03T10:54:32.995Z",
+      "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
           "name": "Clear answers",
@@ -68,7 +68,7 @@
       "description": "Use when the user asks to review, check, audit or critique code, a diff, a pull request or a script, or asks \"is this correct / safe / good\". Produces findings ranked by severity, each with the line and a concrete failure case.",
       "author": "Allkin",
       "category": "code",
-      "updatedAt": "2026-11-03T10:54:32.995Z",
+      "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
           "name": "Code review",
@@ -127,7 +127,7 @@
       "description": "Use when the user talks about their social networks — X, Facebook, Instagram, Threads, LinkedIn, YouTube, TikTok, Mastodon, Bluesky, Pinterest —, about posts to write or schedule, followers, comments or mentions to answer, an editorial line or calendar, hashtags, or social figures and reports. Writes, adapts and checks posts per network, triages the inbox, measures; publishes only through the networks' services, each post approved by the user.",
       "author": "Allkin",
       "category": "communication",
-      "updatedAt": "2026-11-03T10:54:33.013Z",
+      "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
           "name": "Community management",
@@ -496,7 +496,7 @@
       "description": "Use when the user asks to write, reply to, rephrase or soften an e-mail, a letter or a message to someone — a client, a supplier, a colleague, an administration. Produces a ready-to-send draft with subject line, in the right register.",
       "author": "Allkin",
       "category": "communication",
-      "updatedAt": "2026-11-03T10:54:32.996Z",
+      "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
           "name": "E-mail drafting",
@@ -555,7 +555,7 @@
       "description": "Use when something is broken or slow on a machine or a service — \"it does not work\", \"the site is down\", \"the disk is full\", an error in a log — and the user wants it diagnosed, fixed or written up. Drives a step-by-step diagnosis and produces an incident report.",
       "author": "Allkin",
       "category": "operations",
-      "updatedAt": "2026-11-03T10:54:32.997Z",
+      "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
           "name": "Incident report",
@@ -614,7 +614,7 @@
       "description": "Use when the user wants something done later, again and again, or whenever something happens on the machine — \"every morning\", \"remind me tomorrow\", \"each Monday\", \"warn me when a sign-in fails\", \"when an agent fails, look into it\", \"after an update\". Creates, reviews and deletes Allkin's actions, at a time or on an event of the event log.",
       "author": "Allkin",
       "category": "operations",
-      "updatedAt": "2026-11-03T10:54:32.997Z",
+      "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
           "name": "Manage actions",
@@ -673,7 +673,7 @@
       "description": "Use when the answer compares several items along the same criteria, lists options with their properties, or when the user asks for a table. Produces a Markdown table that reads well in Allkin's conversation.",
       "author": "Allkin",
       "category": "writing",
-      "updatedAt": "2026-11-03T10:54:32.998Z",
+      "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
           "name": "Markdown tables",
@@ -732,7 +732,7 @@
       "description": "Use when the user hands over a transcript, a recording's text or rough notes of a meeting and wants minutes, a summary, the decisions or the action items. Produces structured minutes with owners and deadlines.",
       "author": "Allkin",
       "category": "organisation",
-      "updatedAt": "2026-11-03T10:54:32.998Z",
+      "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
           "name": "Meeting notes",
@@ -785,13 +785,117 @@
       ]
     },
     {
+      "id": "migrate-agents",
+      "name": "migrate-agents",
+      "version": "1.0.0",
+      "description": "Use when the user wants to bring agents from another agent platform into Allkin — OpenClaw (ex Clawdbot, Moltbot), NanoClaw — or uploads an archive of such an install. Reads the archive without its secrets, inventories agents, roles, memories, competences, scheduled tasks and channels, rewrites each agent for Allkin and hands back .allkin archives to import plus a to-do list.",
+      "author": "Allkin",
+      "category": "operations",
+      "updatedAt": "2026-11-06T09:35:19.954Z",
+      "locales": {
+        "en": {
+          "name": "Migrate agents",
+          "description": "Bring your agents from OpenClaw or NanoClaw into Allkin: role, memory, notes and competences carried over without their secrets, scheduled tasks and channels listed for you, an archive to import per agent."
+        },
+        "fr": {
+          "name": "Migrer des agents",
+          "description": "Faites venir vos agents d'OpenClaw ou de NanoClaw dans Allkin : rôle, mémoire, notes et compétences repris sans leurs secrets, tâches planifiées et canaux listés pour vous, une archive à importer par agent."
+        },
+        "es": {
+          "name": "Migrar agentes",
+          "description": "Traiga sus agentes de OpenClaw o NanoClaw a Allkin: rol, memoria, notas y competencias trasladados sin sus secretos, tareas programadas y canales enumerados para usted, un archivo que importar por agente."
+        },
+        "de": {
+          "name": "Agenten migrieren",
+          "description": "Holen Sie Ihre Agenten aus OpenClaw oder NanoClaw in Allkin: Rolle, Gedächtnis, Notizen und Fähigkeiten ohne ihre Geheimnisse übernommen, geplante Aufgaben und Kanäle für Sie aufgelistet, ein Archiv pro Agent zum Importieren."
+        }
+      },
+      "files": [
+        {
+          "path": "README-DE.md",
+          "size": 3197,
+          "sha256": "b49e3d86e0429290b241e0b4742aace413a077fd05837f1c15dd7632af60b031"
+        },
+        {
+          "path": "README-ES.md",
+          "size": 2981,
+          "sha256": "3de9a69cdcdd0e584d7ba85b652796c1c50adc9a789943073c48e9a31995b1f6"
+        },
+        {
+          "path": "README-FR.md",
+          "size": 3128,
+          "sha256": "b428d1426a051eacf6f2b40c98ffdfb3a9348168961eea60a7ed779045e66af6"
+        },
+        {
+          "path": "README.md",
+          "size": 2756,
+          "sha256": "62d1e397b4caff2a5ce1e456e8c70e2f9f2ae891422ffbcb660120143ae4f805"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 8088,
+          "sha256": "da9cf55962c55c2e74c4c4cabcbfbd1d2a9cc25479d670905060ab5c982f8f3f"
+        },
+        {
+          "path": "references/mapping.md",
+          "size": 5062,
+          "sha256": "39ab8f6ebd739d5597878bf47d390af8e008d9af77b46efd7b913b7324c08181"
+        },
+        {
+          "path": "scripts/convert_skill.mjs",
+          "size": 8153,
+          "sha256": "c7877858dddd935fb4440db0d713b0e73fa724d89c0686fce5d84841abcecec7"
+        },
+        {
+          "path": "scripts/inventory.mjs",
+          "size": 18315,
+          "sha256": "0aa632f2fbdc0a7e7953a509ea23c161550d0ef83051d0b412fc1f73fa5225eb"
+        },
+        {
+          "path": "scripts/lib/common.mjs",
+          "size": 7314,
+          "sha256": "b52b2b0ccf4a49aeb133301f5f27f2311b79782f2c29f13a61828d844076b178"
+        },
+        {
+          "path": "scripts/lib/json5.mjs",
+          "size": 3352,
+          "sha256": "3727da71ba94017b7c877a36fde0839c1478239d55715089c901a54c92c0e714"
+        },
+        {
+          "path": "scripts/lib/zip.mjs",
+          "size": 6112,
+          "sha256": "e71df4929ae2ecbd15c65067c8ad4395ca71f1b2f316915422f836c98b6981f7"
+        },
+        {
+          "path": "scripts/pack.mjs",
+          "size": 9094,
+          "sha256": "41faf74b52c7fb8aa83b0e8f27ed1f70095ea2b089ba6446b4399bc1bc55b679"
+        },
+        {
+          "path": "scripts/unpack.mjs",
+          "size": 6121,
+          "sha256": "73b3efbd81a3d9d3c81f48968c0fb1cd8293980f01f65445a38ecb4739e161c3"
+        },
+        {
+          "path": "skill.json",
+          "size": 1252,
+          "sha256": "0efacfd71661185d9c2dc199863c920baa534d589c584dd50dd44cb36c1e2937"
+        },
+        {
+          "path": "tests/migrate.test.mjs",
+          "size": 10384,
+          "sha256": "a6032fecb297b4f64e0cf6c1a26e28b5e52940650db3916c6bfd1db2d61aabb7"
+        }
+      ]
+    },
+    {
       "id": "project-plan",
       "name": "project-plan",
       "version": "1.0.2",
       "description": "Use when the user states a goal, a project or a piece of work to organise and wants a plan, milestones, a task list, a schedule or a risk review. Produces a plan file that can be followed and updated.",
       "author": "Allkin",
       "category": "organisation",
-      "updatedAt": "2026-11-03T10:54:32.998Z",
+      "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
           "name": "Project plan",
@@ -850,7 +954,7 @@
       "description": "Use when the user asks to look something up, compare products or options, check a fact, find out \"what is the state of\", or wants a summary of what is known on a topic. Needs web access. Produces a short brief with sources, dated.",
       "author": "Allkin",
       "category": "analysis",
-      "updatedAt": "2026-11-03T10:54:32.999Z",
+      "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
           "name": "Research brief",

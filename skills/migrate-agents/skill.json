@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "operations",
+  "locales": {
+    "en": {
+      "name": "Migrate agents",
+      "description": "Bring your agents from OpenClaw or NanoClaw into Allkin: role, memory, notes and competences carried over without their secrets, scheduled tasks and channels listed for you, an archive to import per agent."
+    },
+    "fr": {
+      "name": "Migrer des agents",
+      "description": "Faites venir vos agents d'OpenClaw ou de NanoClaw dans Allkin : rôle, mémoire, notes et compétences repris sans leurs secrets, tâches planifiées et canaux listés pour vous, une archive à importer par agent."
+    },
+    "es": {
+      "name": "Migrar agentes",
+      "description": "Traiga sus agentes de OpenClaw o NanoClaw a Allkin: rol, memoria, notas y competencias trasladados sin sus secretos, tareas programadas y canales enumerados para usted, un archivo que importar por agente."
+    },
+    "de": {
+      "name": "Agenten migrieren",
+      "description": "Holen Sie Ihre Agenten aus OpenClaw oder NanoClaw in Allkin: Rolle, Gedächtnis, Notizen und Fähigkeiten ohne ihre Geheimnisse übernommen, geplante Aufgaben und Kanäle für Sie aufgelistet, ein Archiv pro Agent zum Importieren."
+    }
+  }
+}
