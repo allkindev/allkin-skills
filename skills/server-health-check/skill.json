@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "operations",
+  "locales": {
+    "en": {
+      "name": "Server health check",
+      "description": "A read-only round of a Linux server: disk, memory, services, updates, certificates, backups, access and logs, with thresholds, readings kept to see the trend, and a report sorted by urgency."
+    },
+    "fr": {
+      "name": "Contrôle de santé des serveurs",
+      "description": "Une ronde en lecture seule sur un serveur Linux : disque, mémoire, services, mises à jour, certificats, sauvegardes, accès et journaux, avec des seuils, des relevés gardés pour voir la tendance, et un rapport trié par urgence."
+    },
+    "es": {
+      "name": "Control de salud de servidores",
+      "description": "Una ronda de solo lectura por un servidor Linux: disco, memoria, servicios, actualizaciones, certificados, copias de seguridad, accesos y registros, con umbrales, lecturas guardadas para ver la tendencia y un informe ordenado por urgencia."
+    },
+    "de": {
+      "name": "Server-Gesundheitscheck",
+      "description": "Eine rein lesende Runde über einen Linux-Server: Festplatte, Speicher, Dienste, Updates, Zertifikate, Backups, Zugriffe und Protokolle, mit Schwellenwerten, aufbewahrten Messwerten für den Trend und einem Bericht nach Dringlichkeit."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "writing",
+  "locales": {
+    "en": {
+      "name": "Typography",
+      "description": "The typographic rules of French, English, Spanish and German — quotation marks, spaces, apostrophes, dashes, numbers, dates — with the exact characters to type, never in code."
+    },
+    "fr": {
+      "name": "Typographie",
+      "description": "Les règles typographiques du français, de l'anglais, de l'espagnol et de l'allemand — guillemets, espaces, apostrophes, tirets, nombres, dates — avec les caractères exacts à taper, jamais dans du code."
+    },
+    "es": {
+      "name": "Tipografía",
+      "description": "Las reglas tipográficas del francés, el inglés, el español y el alemán — comillas, espacios, apóstrofos, rayas, números, fechas — con los caracteres exactos que escribir, nunca en el código."
+    },
+    "de": {
+      "name": "Typografie",
+      "description": "Die typografischen Regeln des Französischen, Englischen, Spanischen und Deutschen — Anführungszeichen, Leerzeichen, Apostrophe, Striche, Zahlen, Daten — mit den genauen Zeichen, nie im Code."
+    }
+  }
+}

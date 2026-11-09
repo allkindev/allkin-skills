@@ -490,6 +490,95 @@
       ]
     },
     {
+      "id": "data-analysis",
+      "name": "data-analysis",
+      "version": "1.0.0",
+      "description": "Use when the user hands over a table — a CSV, a TSV or an Excel file (.xlsx) — or asks for figures from one: totals, averages, a breakdown by category or by month, a ranking, a comparison, a trend, a chart, \"what do these numbers say\". Profiles the file, computes every figure with scripts (never by reading the rows), draws plain charts as SVG, and writes a short note of what the numbers show.",
+      "author": "Allkin",
+      "category": "analysis",
+      "updatedAt": "2026-11-09T21:17:36.129Z",
+      "locales": {
+        "en": {
+          "name": "Data analysis",
+          "description": "Figures from a CSV or Excel file that are computed, never estimated: a profile of the table, totals and breakdowns by scripts, plain charts, and a short note of what the numbers show."
+        },
+        "fr": {
+          "name": "Analyse de données",
+          "description": "Des chiffres tirés d'un fichier CSV ou Excel, calculés et jamais estimés : un profil du tableau, des totaux et des ventilations par scripts, des graphiques sobres et une courte note sur ce que montrent les chiffres."
+        },
+        "es": {
+          "name": "Análisis de datos",
+          "description": "Cifras de un archivo CSV o Excel calculadas, nunca estimadas: un perfil de la tabla, totales y desgloses mediante scripts, gráficos sobrios y una breve nota de lo que muestran los números."
+        },
+        "de": {
+          "name": "Datenanalyse",
+          "description": "Zahlen aus einer CSV- oder Excel-Datei, berechnet statt geschätzt: ein Profil der Tabelle, Summen und Aufschlüsselungen per Skript, schlichte Diagramme und eine kurze Notiz dazu, was die Zahlen zeigen."
+        }
+      },
+      "files": [
+        {
+          "path": "README-DE.md",
+          "size": 838,
+          "sha256": "2d3428f9cc86e9d6e9d63630550fd727127f79ad38192f7b8c3738b67ecd69af"
+        },
+        {
+          "path": "README-ES.md",
+          "size": 825,
+          "sha256": "df5c8401680aeda4b8536482b9dc661ff310596f85e67c4ee5a6b336e2040d27"
+        },
+        {
+          "path": "README-FR.md",
+          "size": 888,
+          "sha256": "9a8b47afd71f6781002df4b186f1500c09a1d836e50e473c6e34e5c9058b2cf6"
+        },
+        {
+          "path": "README.md",
+          "size": 729,
+          "sha256": "fb3cff2202808dd5964c3de318e60cd40db28813df36794e84f7e55a498dfca6"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 7698,
+          "sha256": "50091a5149f8ee1a104e4fc76c3b849a1fb4cbcf46967b20ee2c64735d09f08b"
+        },
+        {
+          "path": "scripts/aggregate.mjs",
+          "size": 11970,
+          "sha256": "65dba45ed752b12d89b74dfc5e5f35870ef3fadbdee0fcf32d83a46ec9ee2f45"
+        },
+        {
+          "path": "scripts/calc.mjs",
+          "size": 3041,
+          "sha256": "70f015a204215368f082fabbd765a9ff0da89d36de5f6f7535b91a75a2c039d6"
+        },
+        {
+          "path": "scripts/chart.mjs",
+          "size": 10754,
+          "sha256": "fcc78a46231aa83cc5ac2c083f3b2e0cfbcd6be9aed54054b0332457f6b5393a"
+        },
+        {
+          "path": "scripts/lib/table.mjs",
+          "size": 23025,
+          "sha256": "5deb5bf59662a5e3baf8af5c7ade7d5c3922dd944ff865b021ee120469a4367d"
+        },
+        {
+          "path": "scripts/profile.mjs",
+          "size": 5351,
+          "sha256": "78e7addee0f6dca7f4131d80b5326ea8ec3a1ef977902721dbe4b72406a74203"
+        },
+        {
+          "path": "skill.json",
+          "size": 1192,
+          "sha256": "cf73052d8010a0514f752b20e5faae94c3e5c48a1d80353d8e62931bbc84fe9e"
+        },
+        {
+          "path": "tests/scripts.test.mjs",
+          "size": 16046,
+          "sha256": "e0152b4d27b55e474666750078030841cc66a2dbfb0322079e03476620d7bd5e"
+        }
+      ]
+    },
+    {
       "id": "email-drafting",
       "name": "email-drafting",
       "version": "1.0.2",
@@ -791,7 +880,7 @@
       "description": "Use when the user wants to bring agents from another agent platform into Allkin — OpenClaw (ex Clawdbot, Moltbot), NanoClaw — or uploads an archive of such an install. Reads the archive without its secrets, inventories agents, roles, memories, competences, scheduled tasks and channels, rewrites each agent for Allkin and hands back .allkin archives to import plus a to-do list.",
       "author": "Allkin",
       "category": "operations",
-      "updatedAt": "2026-11-06T09:35:19.954Z",
+      "updatedAt": "2026-11-06T10:35:20+01:00",
       "locales": {
         "en": {
           "name": "Migrate agents",
@@ -1003,6 +1092,242 @@
           "path": "skill.json",
           "size": 1079,
           "sha256": "d3e490d8cc0ecd06210882d1442398ed2b4e77222372249278b8c03cd1184e95"
+        }
+      ]
+    },
+    {
+      "id": "server-health-check",
+      "name": "server-health-check",
+      "version": "1.0.0",
+      "description": "Use when the user asks to check, audit or watch a Linux server or several — \"is everything fine on\", \"make your round\", \"check the disk / the backups / the certificates / the updates\", a regular health check — or when an action wakes you for a round. A read-only checklist with its commands and thresholds, readings kept from one round to the next, and a report sorted by urgency.",
+      "author": "Allkin",
+      "category": "operations",
+      "updatedAt": "2026-11-09T21:17:36.144Z",
+      "locales": {
+        "en": {
+          "name": "Server health check",
+          "description": "A read-only round of a Linux server: disk, memory, services, updates, certificates, backups, access and logs, with thresholds, readings kept to see the trend, and a report sorted by urgency."
+        },
+        "fr": {
+          "name": "Contrôle de santé des serveurs",
+          "description": "Une ronde en lecture seule sur un serveur Linux : disque, mémoire, services, mises à jour, certificats, sauvegardes, accès et journaux, avec des seuils, des relevés gardés pour voir la tendance, et un rapport trié par urgence."
+        },
+        "es": {
+          "name": "Control de salud de servidores",
+          "description": "Una ronda de solo lectura por un servidor Linux: disco, memoria, servicios, actualizaciones, certificados, copias de seguridad, accesos y registros, con umbrales, lecturas guardadas para ver la tendencia y un informe ordenado por urgencia."
+        },
+        "de": {
+          "name": "Server-Gesundheitscheck",
+          "description": "Eine rein lesende Runde über einen Linux-Server: Festplatte, Speicher, Dienste, Updates, Zertifikate, Backups, Zugriffe und Protokolle, mit Schwellenwerten, aufbewahrten Messwerten für den Trend und einem Bericht nach Dringlichkeit."
+        }
+      },
+      "files": [
+        {
+          "path": "README-DE.md",
+          "size": 898,
+          "sha256": "5aa6233b4c9a17caa9670caecd9f8b6cf060d7123ad75235363b17ba42eaf7d3"
+        },
+        {
+          "path": "README-ES.md",
+          "size": 877,
+          "sha256": "f30ae51f378d73b8fbc302202b9239250efc1713893064f27c13aee21bb2fc9e"
+        },
+        {
+          "path": "README-FR.md",
+          "size": 887,
+          "sha256": "a9bacca44ac58578c6f92c7c134a9aabeee459b156a3bcee6e77411df039115f"
+        },
+        {
+          "path": "README.md",
+          "size": 771,
+          "sha256": "3898fb089f217244f074b87a2cef83c8ad7977ccbadb6f79c3c78a8d15e7d405"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 10560,
+          "sha256": "743b744570d0d77de4a211a02e25c1d210d03873b8b782fc08c7246a19666624"
+        },
+        {
+          "path": "skill.json",
+          "size": 1337,
+          "sha256": "b20343395862d10d2e888c9538b81e48dee0918886dad3ba0e2d1414b94b4540"
+        }
+      ]
+    },
+    {
+      "id": "topic-watch",
+      "name": "topic-watch",
+      "version": "1.0.0",
+      "description": "Use when the user wants a subject followed over time — competitors, prices, a product, a technology, a regulation, a call for tenders, mentions of a name — \"keep an eye on\", \"tell me when\", \"every week\", \"what's new on\", or when an action wakes you for a watch run. Sets a watch up in files, then at each run reports only what is new since the last one. Needs web access.",
+      "author": "Allkin",
+      "category": "analysis",
+      "updatedAt": "2026-11-09T21:17:36.155Z",
+      "locales": {
+        "en": {
+          "name": "Topic watch",
+          "description": "A subject followed over time — competitors, prices, a technology, a regulation: the sources and what was already reported are kept in files, and each run tells only what is new since the last one."
+        },
+        "fr": {
+          "name": "Veille",
+          "description": "Un sujet suivi dans la durée — concurrents, prix, technologie, réglementation : les sources et ce qui a déjà été signalé sont gardés dans des fichiers, et chaque passage ne dit que ce qui est nouveau depuis le précédent."
+        },
+        "es": {
+          "name": "Vigilancia",
+          "description": "Un tema seguido en el tiempo —competidores, precios, una tecnología, una normativa—: las fuentes y lo ya comunicado se guardan en archivos, y cada pasada solo dice lo nuevo desde la anterior."
+        },
+        "de": {
+          "name": "Themenbeobachtung",
+          "description": "Ein Thema über die Zeit verfolgt – Wettbewerber, Preise, eine Technologie, eine Vorschrift: Quellen und bereits Gemeldetes liegen in Dateien, und jeder Durchlauf nennt nur, was seit dem letzten neu ist."
+        }
+      },
+      "files": [
+        {
+          "path": "README-DE.md",
+          "size": 646,
+          "sha256": "b538b67f49e57d9ab096f4f742c5225f0efbadcbd177e237f44a807070629eca"
+        },
+        {
+          "path": "README-ES.md",
+          "size": 594,
+          "sha256": "3dfe39c1c6aec719591b3b4bde66c6415273d1c0adb20f31d6599f24ed3ae002"
+        },
+        {
+          "path": "README-FR.md",
+          "size": 643,
+          "sha256": "06c76c4d87294f5378f497244f90f7bdf280e12ef56bfc1b63693578cf6c24a6"
+        },
+        {
+          "path": "README.md",
+          "size": 539,
+          "sha256": "9507c0fc3b0e4524d6ad50601dfdf9e70dbc758d5e31b0cb0ff97b6ecc7dd267"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 6961,
+          "sha256": "c090915980f271a9fee2686e13630fbc0723968b04b57e16d0f0889125a7136f"
+        },
+        {
+          "path": "skill.json",
+          "size": 1211,
+          "sha256": "0d8634044f3b1bb08f6488313239ef28fc01635d4f9d17a9885e68e22fbcda26"
+        }
+      ]
+    },
+    {
+      "id": "typography",
+      "name": "typography",
+      "version": "1.0.0",
+      "description": "Use whenever you write or revise a text meant to be read, published or printed in French, English, Spanish or German — and when the user asks to fix quotes, spaces, apostrophes, dashes, numbers or dates. The typographic rules of each language, with the exact characters to type.",
+      "author": "Allkin",
+      "category": "writing",
+      "updatedAt": "2026-11-09T21:17:36.168Z",
+      "locales": {
+        "en": {
+          "name": "Typography",
+          "description": "The typographic rules of French, English, Spanish and German — quotation marks, spaces, apostrophes, dashes, numbers, dates — with the exact characters to type, never in code."
+        },
+        "fr": {
+          "name": "Typographie",
+          "description": "Les règles typographiques du français, de l'anglais, de l'espagnol et de l'allemand — guillemets, espaces, apostrophes, tirets, nombres, dates — avec les caractères exacts à taper, jamais dans du code."
+        },
+        "es": {
+          "name": "Tipografía",
+          "description": "Las reglas tipográficas del francés, el inglés, el español y el alemán — comillas, espacios, apóstrofos, rayas, números, fechas — con los caracteres exactos que escribir, nunca en el código."
+        },
+        "de": {
+          "name": "Typografie",
+          "description": "Die typografischen Regeln des Französischen, Englischen, Spanischen und Deutschen — Anführungszeichen, Leerzeichen, Apostrophe, Striche, Zahlen, Daten — mit den genauen Zeichen, nie im Code."
+        }
+      },
+      "files": [
+        {
+          "path": "README-DE.md",
+          "size": 612,
+          "sha256": "f8fb143f31894e7da50184483554f9effddda7809635b1bcfb5f1ba5efca7ae6"
+        },
+        {
+          "path": "README-ES.md",
+          "size": 588,
+          "sha256": "acd70ec12bf556129f3a7db8f3e195941982c25ecae7f169c0785dc90cc9a058"
+        },
+        {
+          "path": "README-FR.md",
+          "size": 606,
+          "sha256": "9e8dd0ac60fa9421190dd042fb194d81ee44216ce559f1cb345b74fd2434db15"
+        },
+        {
+          "path": "README.md",
+          "size": 526,
+          "sha256": "e64f469536bae0577322e0c5fd21e2aa3c34ec416d7e60c10a5a90c152d373a9"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 6592,
+          "sha256": "0f9e66b0855b9eeb4b8ffcc63289766df8c2b47101973917fb4b73876211e0d7"
+        },
+        {
+          "path": "skill.json",
+          "size": 1163,
+          "sha256": "4fadb55a75a0d10fc8c6cff824604a4164cb44da720eb2d7b1e7f795a7de5a25"
+        }
+      ]
+    },
+    {
+      "id": "writing-revision",
+      "name": "writing-revision",
+      "version": "1.0.0",
+      "description": "Use before handing over any text meant to be read by someone else — an article, a page, a letter, a post, a report, a speech, a description — and whenever the user asks to proofread, revise, improve, tighten, rewrite or \"make it sound less like AI\". Revises a draft in separate passes (structure, sentence, machine tics, typography) and reports what changed.",
+      "author": "Allkin",
+      "category": "writing",
+      "updatedAt": "2026-11-09T21:17:36.184Z",
+      "locales": {
+        "en": {
+          "name": "Writing revision",
+          "description": "Revises a draft in four separate passes — structure, sentence, machine tics, surface — so the text does its job, reads like a person wrote it, and comes back clean with a short note of what changed."
+        },
+        "fr": {
+          "name": "Relecture et révision",
+          "description": "Révise un brouillon en quatre passes distinctes — structure, phrase, tics de machine, surface — pour que le texte fasse son travail, se lise comme écrit par une personne et revienne propre avec une courte note de ce qui a changé."
+        },
+        "es": {
+          "name": "Revisión de textos",
+          "description": "Revisa un borrador en cuatro pasadas distintas — estructura, frase, tics de máquina, superficie — para que el texto cumpla su función, se lea como escrito por una persona y vuelva limpio con una breve nota de lo que cambió."
+        },
+        "de": {
+          "name": "Textüberarbeitung",
+          "description": "Überarbeitet einen Entwurf in vier getrennten Durchgängen — Aufbau, Satz, maschinelle Ticks, Oberfläche —, damit der Text seinen Zweck erfüllt, wie von einem Menschen geschrieben klingt und sauber zurückkommt, mit einer kurzen Notiz der Änderungen."
+        }
+      },
+      "files": [
+        {
+          "path": "README-DE.md",
+          "size": 664,
+          "sha256": "96a059449ec4edcbba2d6afc264149daff7e4ed35bda9f3916122a7d96c260f1"
+        },
+        {
+          "path": "README-ES.md",
+          "size": 616,
+          "sha256": "182dd2fd178c68e13018278eeee593ebd1eb634bc980fbf0708f065c41d2dd71"
+        },
+        {
+          "path": "README-FR.md",
+          "size": 638,
+          "sha256": "1035c5efe0b2a22379e8a8a9b6a07f75b74f7a4fcff731cb0ad8461c2d3701c7"
+        },
+        {
+          "path": "README.md",
+          "size": 549,
+          "sha256": "c7b57ccf0b4562d0e8d8f91769de899a4d2fd6e4923d61bf78471d04d4ff1a81"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 6817,
+          "sha256": "1abbf3f9109e14e398537e475964499529cbfc48bf7e905f6b796992e2476b1d"
+        },
+        {
+          "path": "skill.json",
+          "size": 1336,
+          "sha256": "5d59104bf44ab011133e05ebe899abfdd8fb1e0a7378b71588356d6295629240"
         }
       ]
     }
