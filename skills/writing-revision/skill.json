@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "writing",
+  "locales": {
+    "en": {
+      "name": "Writing revision",
+      "description": "Revises a draft in four separate passes — structure, sentence, machine tics, surface — so the text does its job, reads like a person wrote it, and comes back clean with a short note of what changed."
+    },
+    "fr": {
+      "name": "Relecture et révision",
+      "description": "Révise un brouillon en quatre passes distinctes — structure, phrase, tics de machine, surface — pour que le texte fasse son travail, se lise comme écrit par une personne et revienne propre avec une courte note de ce qui a changé."
+    },
+    "es": {
+      "name": "Revisión de textos",
+      "description": "Revisa un borrador en cuatro pasadas distintas — estructura, frase, tics de máquina, superficie — para que el texto cumpla su función, se lea como escrito por una persona y vuelva limpio con una breve nota de lo que cambió."
+    },
+    "de": {
+      "name": "Textüberarbeitung",
+      "description": "Überarbeitet einen Entwurf in vier getrennten Durchgängen — Aufbau, Satz, maschinelle Ticks, Oberfläche —, damit der Text seinen Zweck erfüllt, wie von einem Menschen geschrieben klingt und sauber zurückkommt, mit einer kurzen Notiz der Änderungen."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "analysis",
+  "locales": {
+    "en": {
+      "name": "Data analysis",
+      "description": "Figures from a CSV or Excel file that are computed, never estimated: a profile of the table, totals and breakdowns by scripts, plain charts, and a short note of what the numbers show."
+    },
+    "fr": {
+      "name": "Analyse de données",
+      "description": "Des chiffres tirés d'un fichier CSV ou Excel, calculés et jamais estimés : un profil du tableau, des totaux et des ventilations par scripts, des graphiques sobres et une courte note sur ce que montrent les chiffres."
+    },
+    "es": {
+      "name": "Análisis de datos",
+      "description": "Cifras de un archivo CSV o Excel calculadas, nunca estimadas: un perfil de la tabla, totales y desgloses mediante scripts, gráficos sobrios y una breve nota de lo que muestran los números."
+    },
+    "de": {
+      "name": "Datenanalyse",
+      "description": "Zahlen aus einer CSV- oder Excel-Datei, berechnet statt geschätzt: ein Profil der Tabelle, Summen und Aufschlüsselungen per Skript, schlichte Diagramme und eine kurze Notiz dazu, was die Zahlen zeigen."
+    }
+  }
+}

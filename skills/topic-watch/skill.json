@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "analysis",
+  "locales": {
+    "en": {
+      "name": "Topic watch",
+      "description": "A subject followed over time — competitors, prices, a technology, a regulation: the sources and what was already reported are kept in files, and each run tells only what is new since the last one."
+    },
+    "fr": {
+      "name": "Veille",
+      "description": "Un sujet suivi dans la durée — concurrents, prix, technologie, réglementation : les sources et ce qui a déjà été signalé sont gardés dans des fichiers, et chaque passage ne dit que ce qui est nouveau depuis le précédent."
+    },
+    "es": {
+      "name": "Vigilancia",
+      "description": "Un tema seguido en el tiempo —competidores, precios, una tecnología, una normativa—: las fuentes y lo ya comunicado se guardan en archivos, y cada pasada solo dice lo nuevo desde la anterior."
+    },
+    "de": {
+      "name": "Themenbeobachtung",
+      "description": "Ein Thema über die Zeit verfolgt – Wettbewerber, Preise, eine Technologie, eine Vorschrift: Quellen und bereits Gemeldetes liegen in Dateien, und jeder Durchlauf nennt nur, was seit dem letzten neu ist."
+    }
+  }
+}
