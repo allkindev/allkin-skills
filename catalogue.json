@@ -496,7 +496,7 @@
       "description": "Use when the user hands over a table — a CSV, a TSV or an Excel file (.xlsx) — or asks for figures from one: totals, averages, a breakdown by category or by month, a ranking, a comparison, a trend, a chart, \"what do these numbers say\". Profiles the file, computes every figure with scripts (never by reading the rows), draws plain charts as SVG, and writes a short note of what the numbers show.",
       "author": "Allkin",
       "category": "analysis",
-      "updatedAt": "2026-11-09T21:17:36.129Z",
+      "updatedAt": "2026-11-09T22:17:36+01:00",
       "locales": {
         "en": {
           "name": "Data analysis",
@@ -634,6 +634,90 @@
           "path": "skill.json",
           "size": 1023,
           "sha256": "dc2110ea9b7ba720c9a0ba828fc22e37fdd316bbe5e8c59cb5ede7e435170e28"
+        }
+      ]
+    },
+    {
+      "id": "home-assistant-admin",
+      "name": "home-assistant-admin",
+      "version": "1.0.0",
+      "description": "Use when the user asks to add, pair, rename, tidy, automate or display anything in Home Assistant — \"listen for new Zigbee / Z-Wave / RFXCOM devices\", \"rename my entities properly\", \"put this in the kitchen\", \"create an automation / a script / a scene\", \"make me a dashboard\", \"what is wrong with my installation\". The method and the exact commands to administer a Home Assistant installation through Allkin's Home Assistant service, without breaking what already runs.",
+      "author": "Allkin",
+      "category": "operations",
+      "updatedAt": "2026-11-10T22:47:24.261Z",
+      "locales": {
+        "en": {
+          "name": "Home Assistant administration",
+          "description": "Administer a Home Assistant installation without breaking it: hear and take in new Zigbee, Z-Wave and RFXCOM devices, name entities by a clear scheme, organise rooms, write automations, scripts and scenes, build dashboards — each change shown first, with its way back."
+        },
+        "fr": {
+          "name": "Administration de Home Assistant",
+          "description": "Administrer une installation Home Assistant sans la casser : écouter et accueillir les nouveaux périphériques Zigbee, Z-Wave et RFXCOM, nommer les entités selon un schéma clair, organiser les pièces, écrire des automatismes, des scripts et des scènes, construire des tableaux de bord — chaque modification montrée d'abord, avec son retour en arrière."
+        },
+        "es": {
+          "name": "Administración de Home Assistant",
+          "description": "Administrar una instalación de Home Assistant sin romperla: escuchar e incorporar los nuevos dispositivos Zigbee, Z-Wave y RFXCOM, nombrar las entidades según un esquema claro, organizar las habitaciones, escribir automatizaciones, scripts y escenas, construir paneles — cada cambio mostrado primero, con su vuelta atrás."
+        },
+        "de": {
+          "name": "Home-Assistant-Administration",
+          "description": "Eine Home-Assistant-Installation verwalten, ohne sie zu beschädigen: neue Zigbee-, Z-Wave- und RFXCOM-Geräte hören und aufnehmen, Entitäten nach einem klaren Schema benennen, Räume ordnen, Automationen, Skripte und Szenen schreiben, Dashboards bauen — jede Änderung zuerst gezeigt, mit ihrem Rückweg."
+        }
+      },
+      "files": [
+        {
+          "path": "README-DE.md",
+          "size": 2459,
+          "sha256": "8f64d0addd4d2c689378ffb02a9c1320269d0cc578035e7c7fba612acffe92f9"
+        },
+        {
+          "path": "README-ES.md",
+          "size": 2294,
+          "sha256": "92c771b6134cf277f14f3a9de5cfaf54b08d02a856bedf65e196674b0b730fb1"
+        },
+        {
+          "path": "README-FR.md",
+          "size": 2438,
+          "sha256": "9292201ac5c9085ffa2bd3e5a54ad5cc6feb05407101c3c65bbdd59d7305df4a"
+        },
+        {
+          "path": "README.md",
+          "size": 2110,
+          "sha256": "39c95e6296629b4b9a5301e80db80da97d081e31e8c27832e1ff61d86e2d95f4"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 6609,
+          "sha256": "84c02d63b48105b1cb4d4c87000eb0a67d8471f72c08f919649298420d59332a"
+        },
+        {
+          "path": "references/automations.md",
+          "size": 5475,
+          "sha256": "7bd7121f063a00a50c731c613efe1c59e47492b5ddf3aef9c43a2d70ccbeebe6"
+        },
+        {
+          "path": "references/commands.md",
+          "size": 5495,
+          "sha256": "e96fd5f1c3cbae27460f6d7c8a16ed6e13d883b1e9074578ed7f3554ca05b7af"
+        },
+        {
+          "path": "references/dashboards.md",
+          "size": 4287,
+          "sha256": "81fee056041fdcb3108d858c44ca5f86b0f803276bd26a683971dd77249e6821"
+        },
+        {
+          "path": "references/naming.md",
+          "size": 4929,
+          "sha256": "390331dfa4c791cf89e6d46f5f26ae684af10f8e1b3f708282ce4bf9c271461e"
+        },
+        {
+          "path": "references/pairing.md",
+          "size": 6222,
+          "sha256": "8b44723da1ad618ccdfbd7378f8f620c52af1111ede1939fbd56c52b07cd220b"
+        },
+        {
+          "path": "skill.json",
+          "size": 1728,
+          "sha256": "5b69cd05df02f5597b0c2e5114f560004bc9c385cc25e08b873b4e5f4de09e98"
         }
       ]
     },
@@ -1102,7 +1186,7 @@
       "description": "Use when the user asks to check, audit or watch a Linux server or several — \"is everything fine on\", \"make your round\", \"check the disk / the backups / the certificates / the updates\", a regular health check — or when an action wakes you for a round. A read-only checklist with its commands and thresholds, readings kept from one round to the next, and a report sorted by urgency.",
       "author": "Allkin",
       "category": "operations",
-      "updatedAt": "2026-11-09T21:17:36.144Z",
+      "updatedAt": "2026-11-09T22:17:36+01:00",
       "locales": {
         "en": {
           "name": "Server health check",
@@ -1161,7 +1245,7 @@
       "description": "Use when the user wants a subject followed over time — competitors, prices, a product, a technology, a regulation, a call for tenders, mentions of a name — \"keep an eye on\", \"tell me when\", \"every week\", \"what's new on\", or when an action wakes you for a watch run. Sets a watch up in files, then at each run reports only what is new since the last one. Needs web access.",
       "author": "Allkin",
       "category": "analysis",
-      "updatedAt": "2026-11-09T21:17:36.155Z",
+      "updatedAt": "2026-11-09T22:17:36+01:00",
       "locales": {
         "en": {
           "name": "Topic watch",
@@ -1220,7 +1304,7 @@
       "description": "Use whenever you write or revise a text meant to be read, published or printed in French, English, Spanish or German — and when the user asks to fix quotes, spaces, apostrophes, dashes, numbers or dates. The typographic rules of each language, with the exact characters to type.",
       "author": "Allkin",
       "category": "writing",
-      "updatedAt": "2026-11-09T21:17:36.168Z",
+      "updatedAt": "2026-11-09T22:17:36+01:00",
       "locales": {
         "en": {
           "name": "Typography",
@@ -1279,7 +1363,7 @@
       "description": "Use before handing over any text meant to be read by someone else — an article, a page, a letter, a post, a report, a speech, a description — and whenever the user asks to proofread, revise, improve, tighten, rewrite or \"make it sound less like AI\". Revises a draft in separate passes (structure, sentence, machine tics, typography) and reports what changed.",
       "author": "Allkin",
       "category": "writing",
-      "updatedAt": "2026-11-09T21:17:36.184Z",
+      "updatedAt": "2026-11-09T22:17:36+01:00",
       "locales": {
         "en": {
           "name": "Writing revision",
