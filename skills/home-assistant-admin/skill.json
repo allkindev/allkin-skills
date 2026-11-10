@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "operations",
+  "locales": {
+    "en": {
+      "name": "Home Assistant administration",
+      "description": "Administer a Home Assistant installation without breaking it: hear and take in new Zigbee, Z-Wave and RFXCOM devices, name entities by a clear scheme, organise rooms, write automations, scripts and scenes, build dashboards — each change shown first, with its way back."
+    },
+    "fr": {
+      "name": "Administration de Home Assistant",
+      "description": "Administrer une installation Home Assistant sans la casser : écouter et accueillir les nouveaux périphériques Zigbee, Z-Wave et RFXCOM, nommer les entités selon un schéma clair, organiser les pièces, écrire des automatismes, des scripts et des scènes, construire des tableaux de bord — chaque modification montrée d'abord, avec son retour en arrière."
+    },
+    "es": {
+      "name": "Administración de Home Assistant",
+      "description": "Administrar una instalación de Home Assistant sin romperla: escuchar e incorporar los nuevos dispositivos Zigbee, Z-Wave y RFXCOM, nombrar las entidades según un esquema claro, organizar las habitaciones, escribir automatizaciones, scripts y escenas, construir paneles — cada cambio mostrado primero, con su vuelta atrás."
+    },
+    "de": {
+      "name": "Home-Assistant-Administration",
+      "description": "Eine Home-Assistant-Installation verwalten, ohne sie zu beschädigen: neue Zigbee-, Z-Wave- und RFXCOM-Geräte hören und aufnehmen, Entitäten nach einem klaren Schema benennen, Räume ordnen, Automationen, Skripte und Szenen schreiben, Dashboards bauen — jede Änderung zuerst gezeigt, mit ihrem Rückweg."
+    }
+  }
+}
