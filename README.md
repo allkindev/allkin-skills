@@ -12,8 +12,3 @@ competences you want. Allkin fetches them at that moment; there is nothing else 
 
 A competence teaches an agent how to do something. It never lets the agent do more than you
 already allowed.
-
-## Making your own
-
-Anyone can offer competences to Allkin from a repository of their own. In Allkin, **Settings ›
-System › Repositories › Create a repository** explains how, step by step.
