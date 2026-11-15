@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "code",
+  "locales": {
+    "en": {
+      "name": "Create integrations",
+      "description": "Create and maintain integrations for Allkin — page, service, settings, translations, documentation —, written in the agent's workshop and checked against Allkin's standard. The key of the workshop tools: an agent without it has none of them. Never a wider right, and you alone install what it makes."
+    },
+    "fr": {
+      "name": "Créer des intégrations",
+      "description": "Créer et faire évoluer des intégrations pour Allkin — page, service, réglages, traductions, documentation —, écrites dans l'atelier de l'agent et vérifiées selon le standard d'Allkin. La clé des outils de l'atelier : un agent qui ne l'a pas n'en a aucun. Jamais un droit de plus, et vous seul installez ce qu'il fabrique."
+    },
+    "es": {
+      "name": "Crear integraciones",
+      "description": "Crear y mantener integraciones para Allkin — página, servicio, ajustes, traducciones, documentación —, escritas en el taller del agente y comprobadas según el estándar de Allkin. La llave de las herramientas del taller: un agente que no la tiene no dispone de ninguna. Nunca un derecho más, y solo tú instalas lo que fabrica."
+    },
+    "de": {
+      "name": "Integrationen erstellen",
+      "description": "Integrationen für Allkin erstellen und pflegen – Seite, Dienst, Einstellungen, Übersetzungen, Dokumentation –, in der Werkstatt des Agenten geschrieben und nach dem Standard von Allkin geprüft. Der Schlüssel der Werkstatt-Werkzeuge: Ein Agent ohne sie hat keines davon. Nie ein zusätzliches Recht, und nur du installierst, was er baut."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "writing",
+  "locales": {
+    "en": {
+      "name": "Word and Excel documents",
+      "description": "Read, fill in, correct, format and create Word and Excel documents (.docx, .xlsx), changed in place without damaging what is left untouched. The key of the Office tools: an agent without it has none of them. Never a wider right."
+    },
+    "fr": {
+      "name": "Documents Word et Excel",
+      "description": "Lire, remplir, corriger, mettre en forme et créer des documents Word et Excel (.docx, .xlsx), modifiés sur place sans abîmer ce qui n'est pas touché. La clé des outils Office : un agent qui ne l'a pas n'en a aucun. Jamais un droit de plus."
+    },
+    "es": {
+      "name": "Documentos Word y Excel",
+      "description": "Leer, rellenar, corregir, dar formato y crear documentos Word y Excel (.docx, .xlsx), modificados en su sitio sin dañar lo que no se toca. La llave de las herramientas de Office: un agente que no la tiene no dispone de ninguna. Nunca un derecho más."
+    },
+    "de": {
+      "name": "Word- und Excel-Dokumente",
+      "description": "Word- und Excel-Dokumente (.docx, .xlsx) lesen, ausfüllen, korrigieren, formatieren und anlegen – an Ort und Stelle geändert, ohne zu beschädigen, was unberührt bleibt. Der Schlüssel der Office-Werkzeuge: Ein Agent ohne sie hat keines davon. Nie ein zusätzliches Recht."
+    }
+  }
+}

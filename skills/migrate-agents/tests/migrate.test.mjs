@@ -19,8 +19,11 @@ import { inventory } from "../scripts/inventory.mjs";
 import { convertSkill, frameIssues } from "../scripts/convert_skill.mjs";
 import { pack, memoryFacts } from "../scripts/pack.mjs";
 
-const TELEGRAM = "123456789:AAEhBP0av28aaaaaaaaaaaaaaaaaaaaaaaa";
-const ANTHROPIC = "sk-ant-api03-abcdefghijklmnopqrstuvwxyz";
+// Made-up values with the shape of real secrets, for the scrubber to find. They
+// are assembled here, never written whole: a literal with the shape of a token
+// is reported as a leaked secret by the scanners of a public repository.
+const TELEGRAM = ["123456789", "AAEhBP0av28" + "a".repeat(24)].join(":");
+const ANTHROPIC = ["sk", "ant", "api03", "abcdefghijklmnopqrstuvwxyz"].join("-");
 let tmp;
 
 function write(path, content) {

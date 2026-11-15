@@ -490,6 +490,139 @@
       ]
     },
     {
+      "id": "create-integration",
+      "name": "create-integration",
+      "version": "1.0.0",
+      "description": "Use when the user asks you to create, change, fix or debug an integration for Allkin — \"make me an integration that…\", \"add a page to Allkin for…\", \"integrate this software\", \"my integration shows an error\", \"add a setting to the integration you made\". Writes the project in your workshop (manifest, page, scripts, translations, documentation, icon), checks it against Allkin's standard, and tells the user how to install or update it.",
+      "author": "Allkin",
+      "category": "code",
+      "updatedAt": "2026-11-15T12:52:07.509Z",
+      "locales": {
+        "en": {
+          "name": "Create integrations",
+          "description": "Create and maintain integrations for Allkin — page, service, settings, translations, documentation —, written in the agent's workshop and checked against Allkin's standard. The key of the workshop tools: an agent without it has none of them. Never a wider right, and you alone install what it makes."
+        },
+        "fr": {
+          "name": "Créer des intégrations",
+          "description": "Créer et faire évoluer des intégrations pour Allkin — page, service, réglages, traductions, documentation —, écrites dans l'atelier de l'agent et vérifiées selon le standard d'Allkin. La clé des outils de l'atelier : un agent qui ne l'a pas n'en a aucun. Jamais un droit de plus, et vous seul installez ce qu'il fabrique."
+        },
+        "es": {
+          "name": "Crear integraciones",
+          "description": "Crear y mantener integraciones para Allkin — página, servicio, ajustes, traducciones, documentación —, escritas en el taller del agente y comprobadas según el estándar de Allkin. La llave de las herramientas del taller: un agente que no la tiene no dispone de ninguna. Nunca un derecho más, y solo tú instalas lo que fabrica."
+        },
+        "de": {
+          "name": "Integrationen erstellen",
+          "description": "Integrationen für Allkin erstellen und pflegen – Seite, Dienst, Einstellungen, Übersetzungen, Dokumentation –, in der Werkstatt des Agenten geschrieben und nach dem Standard von Allkin geprüft. Der Schlüssel der Werkstatt-Werkzeuge: Ein Agent ohne sie hat keines davon. Nie ein zusätzliches Recht, und nur du installierst, was er baut."
+        }
+      },
+      "files": [
+        {
+          "path": "README-DE.md",
+          "size": 1438,
+          "sha256": "5cdf86187c1df585151a19ebac653565e6877e677dbb58cadc4e96935252fa57"
+        },
+        {
+          "path": "README-ES.md",
+          "size": 1369,
+          "sha256": "70153dbb181eed2426bd7e8230e3bafb189b1a39ab4b97a9f7bca504f2487315"
+        },
+        {
+          "path": "README-FR.md",
+          "size": 1410,
+          "sha256": "d455cd7688ce81a2e1b58b68180982f8a7fb5eb2278f0ed7df3bc920923ef0da"
+        },
+        {
+          "path": "README.md",
+          "size": 1243,
+          "sha256": "b5e25d767c37e126a9d1b05b1cd138392da6b9fd4cc91076a07ba15a85011cba"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 11798,
+          "sha256": "458805f10bc50567ffcbb9d365e37eb8a314408df07b0069bdcc0e993d13490d"
+        },
+        {
+          "path": "references/EXAMPLE.md",
+          "size": 17459,
+          "sha256": "3acdee69eb766a0952078cb29fd29bcc620992ad7af03a38a522e433a7e2974a"
+        },
+        {
+          "path": "references/PLUGIN-STANDARD.md",
+          "size": 21740,
+          "sha256": "65a8df055f830d28962436d154a8a06fcfadbc41d0180331ad8a69d608209ad2"
+        },
+        {
+          "path": "skill.json",
+          "size": 1732,
+          "sha256": "50a339a32be21484098ec842b482bf84dc6b108e1e8c9103dbc1d92e7614f2fd"
+        }
+      ]
+    },
+    {
+      "id": "create-service",
+      "name": "create-service",
+      "version": "1.0.0",
+      "description": "Use when the user asks you to connect Allkin to an external API — \"add a service for…\", \"let my agents use the API of…\", \"create a connector to…\", \"the service you made fails its test\", \"add a safeguard to that service\". Writes the service's definition in your workshop (where the API is, how the secret travels, the test, the guide for the agents, the help), checks it against Allkin's standard, and tells the user where to connect it.",
+      "author": "Allkin",
+      "category": "code",
+      "updatedAt": "2026-11-15T12:52:07.522Z",
+      "locales": {
+        "en": {
+          "name": "Create services",
+          "description": "Create and maintain services for Allkin — the definition that connects an external API: address, authentication, test, safeguards, guide for the agents —, written in the agent's workshop and checked against Allkin's standard. The key of the workshop tools: an agent without it has none of them. Never a wider right, and you alone connect what it makes."
+        },
+        "fr": {
+          "name": "Créer des services",
+          "description": "Créer et faire évoluer des services pour Allkin — la définition qui relie une API externe : adresse, authentification, test, garde-fous, guide pour les agents —, écrits dans l'atelier de l'agent et vérifiés selon le standard d'Allkin. La clé des outils de l'atelier : un agent qui ne l'a pas n'en a aucun. Jamais un droit de plus, et vous seul connectez ce qu'il fabrique."
+        },
+        "es": {
+          "name": "Crear servicios",
+          "description": "Crear y mantener servicios para Allkin — la definición que conecta una API externa: dirección, autenticación, prueba, salvaguardas, guía para los agentes —, escritos en el taller del agente y comprobados según el estándar de Allkin. La llave de las herramientas del taller: un agente que no la tiene no dispone de ninguna. Nunca un derecho más, y solo tú conectas lo que fabrica."
+        },
+        "de": {
+          "name": "Dienste erstellen",
+          "description": "Dienste für Allkin erstellen und pflegen – die Definition, die eine externe API anbindet: Adresse, Authentifizierung, Test, Schutzregeln, Leitfaden für die Agenten –, in der Werkstatt des Agenten geschrieben und nach dem Standard von Allkin geprüft. Der Schlüssel der Werkstatt-Werkzeuge: Ein Agent ohne sie hat keines davon. Nie ein zusätzliches Recht, und nur du verbindest, was er baut."
+        }
+      },
+      "files": [
+        {
+          "path": "README-DE.md",
+          "size": 1375,
+          "sha256": "20d36592695126a9db1803133adb8c5b286045e2b7b1c8feaabf601485ba8c91"
+        },
+        {
+          "path": "README-ES.md",
+          "size": 1295,
+          "sha256": "cce4c86e2ceb4f9df6c570a0e7b5d98e3db4e42aff2a23e571e52a118567c540"
+        },
+        {
+          "path": "README-FR.md",
+          "size": 1351,
+          "sha256": "bdd22737883e347eeefa2b79ec0a4fb895331e739a6944879ee9ed080725c765"
+        },
+        {
+          "path": "README.md",
+          "size": 1181,
+          "sha256": "70ab3d0a2197d86bc8941e0965092f296917a1fb49c6ab3fe57f4d953bd7fc7f"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 9740,
+          "sha256": "c02e8bf617fc338d127c6f508086651583876f09a96fcb042873410302f9a3eb"
+        },
+        {
+          "path": "references/SERVICE-STANDARD.md",
+          "size": 9469,
+          "sha256": "b8ff08ce01c8c6d6e5215b024a869343dae984e0fccf0ad83677c38212d21450"
+        },
+        {
+          "path": "skill.json",
+          "size": 1926,
+          "sha256": "c97c4aaa7ea5b04989d1f8fb9a66e41e6615c224b5799e2a969322cc143108f0"
+        }
+      ]
+    },
+    {
       "id": "data-analysis",
       "name": "data-analysis",
       "version": "1.0.0",
@@ -644,7 +777,7 @@
       "description": "Use when the user asks to add, pair, rename, tidy, automate or display anything in Home Assistant — \"listen for new Zigbee / Z-Wave / RFXCOM devices\", \"rename my entities properly\", \"put this in the kitchen\", \"create an automation / a script / a scene\", \"make me a dashboard\", \"what is wrong with my installation\". The method and the exact commands to administer a Home Assistant installation through Allkin's Home Assistant service, without breaking what already runs.",
       "author": "Allkin",
       "category": "operations",
-      "updatedAt": "2026-11-10T22:47:24.261Z",
+      "updatedAt": "2026-11-10T23:47:24+01:00",
       "locales": {
         "en": {
           "name": "Home Assistant administration",
@@ -960,7 +1093,7 @@
     {
       "id": "migrate-agents",
       "name": "migrate-agents",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Use when the user wants to bring agents from another agent platform into Allkin — OpenClaw (ex Clawdbot, Moltbot), NanoClaw — or uploads an archive of such an install. Reads the archive without its secrets, inventories agents, roles, memories, competences, scheduled tasks and channels, rewrites each agent for Allkin and hands back .allkin archives to import plus a to-do list.",
       "author": "Allkin",
       "category": "operations",
@@ -1052,12 +1185,71 @@
         {
           "path": "skill.json",
           "size": 1252,
-          "sha256": "0efacfd71661185d9c2dc199863c920baa534d589c584dd50dd44cb36c1e2937"
+          "sha256": "01db1710d121472fb40292505db2fe33dec36b4538a6f856db6cbeefe2988d32"
         },
         {
           "path": "tests/migrate.test.mjs",
-          "size": 10384,
-          "sha256": "a6032fecb297b4f64e0cf6c1a26e28b5e52940650db3916c6bfd1db2d61aabb7"
+          "size": 10648,
+          "sha256": "f24c869bc8137174031201a4f80f125c48dab4c52e0a4805b67e06d1bcdabbcf"
+        }
+      ]
+    },
+    {
+      "id": "office-documents",
+      "name": "office-documents",
+      "version": "1.0.0",
+      "description": "Use when the user hands over, names or asks for a Word or Excel document (.docx, .xlsx) — read a contract, fill in a form, correct a letter, update a table, add rows to a workbook, restyle a report, \"make me a Word document\", \"put this in Excel\". Reads the document as numbered blocks or cells, changes it in place without damaging what it does not touch, and creates new ones.",
+      "author": "Allkin",
+      "category": "writing",
+      "updatedAt": "2026-11-15T12:52:07.546Z",
+      "locales": {
+        "en": {
+          "name": "Word and Excel documents",
+          "description": "Read, fill in, correct, format and create Word and Excel documents (.docx, .xlsx), changed in place without damaging what is left untouched. The key of the Office tools: an agent without it has none of them. Never a wider right."
+        },
+        "fr": {
+          "name": "Documents Word et Excel",
+          "description": "Lire, remplir, corriger, mettre en forme et créer des documents Word et Excel (.docx, .xlsx), modifiés sur place sans abîmer ce qui n'est pas touché. La clé des outils Office : un agent qui ne l'a pas n'en a aucun. Jamais un droit de plus."
+        },
+        "es": {
+          "name": "Documentos Word y Excel",
+          "description": "Leer, rellenar, corregir, dar formato y crear documentos Word y Excel (.docx, .xlsx), modificados en su sitio sin dañar lo que no se toca. La llave de las herramientas de Office: un agente que no la tiene no dispone de ninguna. Nunca un derecho más."
+        },
+        "de": {
+          "name": "Word- und Excel-Dokumente",
+          "description": "Word- und Excel-Dokumente (.docx, .xlsx) lesen, ausfüllen, korrigieren, formatieren und anlegen – an Ort und Stelle geändert, ohne zu beschädigen, was unberührt bleibt. Der Schlüssel der Office-Werkzeuge: Ein Agent ohne sie hat keines davon. Nie ein zusätzliches Recht."
+        }
+      },
+      "files": [
+        {
+          "path": "README-DE.md",
+          "size": 1296,
+          "sha256": "72cc635792dfef30a2f8b780a1bff7db113253d14ebee359fc57a2dea0a215c7"
+        },
+        {
+          "path": "README-ES.md",
+          "size": 1240,
+          "sha256": "1e406de125afda0d40b266be63b8b9eb94a3f57cc46f4a92c0230f3b61d88ec8"
+        },
+        {
+          "path": "README-FR.md",
+          "size": 1222,
+          "sha256": "7ee61a256bd2696d525abe7cb418df438d9b654600b56ff8f3b383e3bceb1729"
+        },
+        {
+          "path": "README.md",
+          "size": 1105,
+          "sha256": "b4721cead39eb650fbe4d0fb714532bd6439b9170c1fa049802c80452f4037c4"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 5763,
+          "sha256": "c36a00b113bc6bc5f5584da051665ea5e3e27c65fb4a5b0cb5929a47615aa4ce"
+        },
+        {
+          "path": "skill.json",
+          "size": 1430,
+          "sha256": "245b3d7c2af9e8b40e79281378953995ddccedf2763d9423ba28f3b09480db83"
         }
       ]
     },

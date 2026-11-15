@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "code",
+  "locales": {
+    "en": {
+      "name": "Create services",
+      "description": "Create and maintain services for Allkin — the definition that connects an external API: address, authentication, test, safeguards, guide for the agents —, written in the agent's workshop and checked against Allkin's standard. The key of the workshop tools: an agent without it has none of them. Never a wider right, and you alone connect what it makes."
+    },
+    "fr": {
+      "name": "Créer des services",
+      "description": "Créer et faire évoluer des services pour Allkin — la définition qui relie une API externe : adresse, authentification, test, garde-fous, guide pour les agents —, écrits dans l'atelier de l'agent et vérifiés selon le standard d'Allkin. La clé des outils de l'atelier : un agent qui ne l'a pas n'en a aucun. Jamais un droit de plus, et vous seul connectez ce qu'il fabrique."
+    },
+    "es": {
+      "name": "Crear servicios",
+      "description": "Crear y mantener servicios para Allkin — la definición que conecta una API externa: dirección, autenticación, prueba, salvaguardas, guía para los agentes —, escritos en el taller del agente y comprobados según el estándar de Allkin. La llave de las herramientas del taller: un agente que no la tiene no dispone de ninguna. Nunca un derecho más, y solo tú conectas lo que fabrica."
+    },
+    "de": {
+      "name": "Dienste erstellen",
+      "description": "Dienste für Allkin erstellen und pflegen – die Definition, die eine externe API anbindet: Adresse, Authentifizierung, Test, Schutzregeln, Leitfaden für die Agenten –, in der Werkstatt des Agenten geschrieben und nach dem Standard von Allkin geprüft. Der Schlüssel der Werkstatt-Werkzeuge: Ein Agent ohne sie hat keines davon. Nie ein zusätzliches Recht, und nur du verbindest, was er baut."
+    }
+  }
+}
