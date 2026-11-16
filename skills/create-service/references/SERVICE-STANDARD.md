@@ -15,8 +15,8 @@ Allkin, the agent never sees it.
 ## 1. What a service is
 
 One folder, named by the service's **identifier** (lowercase letters, digits,
-hyphens; never renamed; must not be the identifier of a service shipped with
-Allkin):
+hyphens; never renamed; must not be the identifier of one of Allkin's own
+services — the ones of its repository `allkin-services`, which keep theirs):
 
 ```
 services/<id>/
@@ -32,7 +32,8 @@ services/<id>/
 ## 2. The definition: `service.json`
 
 Plain JSON. Unknown fields are dropped; a field of the wrong type refuses the
-whole definition. Texts are written in English.
+whole definition. Texts are written in English, and said in the other
+languages under `locales` (§5).
 
 ### Identity — must
 
@@ -47,6 +48,7 @@ whole definition. Texts are written in English.
 | Field | Use |
 |-------|-----|
 | `apiBaseUrl` | root of the API (`https://api.example.com/v1`), for a hosted service |
+| `advanced: true` | a generic definition: the form shows every fine setting and the user types the address — the only case where none of the three is needed |
 | `needsBaseUrl: true` | self-hosted: the form asks the user for the address |
 | `baseUrlTemplate` | the address varies by one identifier: `{ "template": "https://{value}.example.com/api", "label": "Account", "note", "placeholder", "pattern" }` (with `needsBaseUrl: true`) |
 | `extraHosts` | other hosts the API answers with links to. No secret is ever sent there |
@@ -135,8 +137,12 @@ every call, declared in `sessionLogin`:
   `tokenClientAuth` (`body` or `basic`), `tokenGrantType`, `oauthAccountField`
   when the token request carries a third value.
 
-Not available to a declarative service: request signing and mail transport
-(IMAP/SMTP) — those are shipped with Allkin only.
+**Reserved to Allkin's own repositories** — the catalogue its owner signs:
+request signing (`requestSigning`), the mail transport (`mail`, IMAP and
+SMTP), a machine over SSH (`ssh`) and the tools of Home Assistant's WebSocket
+API (`homeAssistant`). Each moves credentials another way than a secret set in
+an HTTP request, so Allkin takes them from nowhere else: a definition of any
+other repository that declares one is refused whole.
 
 ## 4. The help: `README.md`
 
@@ -147,12 +153,30 @@ failed test usually means. Images sit in the same folder.
 
 ## 5. Languages
 
-`service.json` is written in English. `locales` carries the description in the
-three other languages:
+`service.json` is written in English. `locales` says in the three other
+languages **every text the user reads**: a mirror of the definition, holding
+those texts only.
 
 ```json
-"locales": { "fr": { "description": "…" }, "es": { "description": "…" }, "de": { "description": "…" } }
+"locales": {
+  "fr": {
+    "description": "…",
+    "sensitivePaths": [{ "label": "Supprimer un projet" }, {}],
+    "pinnedParam": { "label": "…", "hint": "…" }
+  },
+  "es": { "description": "…" },
+  "de": { "description": "…" }
+}
 ```
+
+What may be translated, and nothing else: `label` (only when it is not a
+brand's name), `description`, `baseUrlTemplate` (`label`, `note`,
+`placeholder`), `sessionLogin` (`userLabel`, `passLabel`), `oauthAccountField`
+(`label`, `note`), `commonScopes[]` (`label`), `liveTest` (`label`, `params`),
+`sensitivePaths[]` (`label`, `warning`), `pinnedParam` (`label`, `hint`). A
+list is translated **position by position**: as many entries as the
+definition's, `{}` where nothing changes. A text the definition does not have
+is not translated — English is the base, never a gap. French says « vous ».
 
 `README.md` is English; `README-FR.md`, `README-ES.md`, `README-DE.md` are the
 translations. `agentGuide` is written for a model, in English, once.
@@ -193,12 +217,14 @@ writes `validated`, after connecting it for real.
 
 ## 8. Conformance checklist
 
-1. The folder name is a valid identifier, not one of Allkin's own services.
+1. The folder name is a valid identifier, not one of Allkin's own services, and
+   the definition declares none of the reserved fields (§3).
 2. `service.json` parses, with `label`, `authType`, `category` and an address.
 3. The authentication fields match `authType`.
 4. `testPath` proves the key works, not only that the host answers.
 5. Whatever costs, deletes or speaks for the user is in `sensitivePaths`.
 6. `agentGuide` covers the real use in a few lines; `docUrl` gives the rest.
-7. `description` exists in four languages; the tile has a `logo` or a `glyph`.
+7. `description` and every other text the user reads exist in four languages
+   (§5); the tile has a `logo` or a `glyph`.
 8. `README.md` and its three translations explain where to get the key.
 9. `validation.json` says `pending`.

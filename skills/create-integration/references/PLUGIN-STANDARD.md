@@ -223,6 +223,7 @@ Each entry becomes a field of the plugin's Configuration page.
   | `Allkin.core.installPlugin(entry, { repo })` / `isInterfacePluginLoaded(id)` | the installation window of the Integrations page, from a repository |
   | `Allkin.core.onActivity(listener)` | hear every message of the activity socket (`agent_tool`…); returns the function that stops listening |
   | `Allkin.core.trackPageLoad(promise)` / `renderAgentAvatar(container, agentId)` / `shownSplitKind()` / `closeSplit()` / `openSkillsView()` | a page's loading told to the tab bar; an agent's picture; the split screen; the Competences page |
+  | `Allkin.core.ansiConsole(pre)` / `renderAnsi(pre, text)` / `stripAnsi(text)` | what a process wrote, drawn as a terminal draws it (colours, weights, a line of progress redrawn): `ansiConsole` gives `{ write(text, className), clear() }` for an output that comes piece by piece — never `textContent` on a raw output; test `core.ansiConsole` first |
   | `Allkin.core.share` | the shared folder (`~/.allkin/share`): `list(path)`, `read(path)`, `write(path, text)`, `mkdir`, `remove`, `move`, `copy`, `url(path, download)` — paths relative to it, the plugin's own folder being `<id>/` |
   | `Allkin.core.state`, `el`, `escapeHtml`, `copyToClipboard`, `formatSize`, `formatDateTime`… | the rest of the core |
 

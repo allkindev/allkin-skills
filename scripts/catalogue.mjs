@@ -225,8 +225,9 @@ function readService(id) {
   for (const field of ["label", "authType", "category"]) {
     if (typeof definition[field] !== "string" || !definition[field]) failService(`${field} est obligatoire.`);
   }
-  if (!definition.apiBaseUrl && !definition.needsBaseUrl && !definition.baseUrlTemplate) {
-    failService("apiBaseUrl, needsBaseUrl ou baseUrlTemplate est obligatoire.");
+  // A generic definition (`advanced`) names no address: the user types everything.
+  if (!definition.apiBaseUrl && !definition.needsBaseUrl && !definition.baseUrlTemplate && !definition.advanced) {
+    failService("apiBaseUrl, needsBaseUrl or baseUrlTemplate is required.");
   }
   return {
     id,

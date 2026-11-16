@@ -492,11 +492,11 @@
     {
       "id": "create-integration",
       "name": "create-integration",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Use when the user asks you to create, change, fix or debug an integration for Allkin — \"make me an integration that…\", \"add a page to Allkin for…\", \"integrate this software\", \"my integration shows an error\", \"add a setting to the integration you made\". Writes the project in your workshop (manifest, page, scripts, translations, documentation, icon), checks it against Allkin's standard, and tells the user how to install or update it.",
       "author": "Allkin",
       "category": "code",
-      "updatedAt": "2026-11-15T12:52:07.509Z",
+      "updatedAt": "2026-11-15T13:52:07+01:00",
       "locales": {
         "en": {
           "name": "Create integrations",
@@ -548,24 +548,24 @@
         },
         {
           "path": "references/PLUGIN-STANDARD.md",
-          "size": 21740,
-          "sha256": "65a8df055f830d28962436d154a8a06fcfadbc41d0180331ad8a69d608209ad2"
+          "size": 22093,
+          "sha256": "6bc14ee80461ee2f599d83aacab8df64423f580f95d71df840e1c98ec28fd7c7"
         },
         {
           "path": "skill.json",
           "size": 1732,
-          "sha256": "50a339a32be21484098ec842b482bf84dc6b108e1e8c9103dbc1d92e7614f2fd"
+          "sha256": "e64f0994870ad1f929145b9dbd9ad280a5d4dffbe501a728c36993761fc5ba28"
         }
       ]
     },
     {
       "id": "create-service",
       "name": "create-service",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Use when the user asks you to connect Allkin to an external API — \"add a service for…\", \"let my agents use the API of…\", \"create a connector to…\", \"the service you made fails its test\", \"add a safeguard to that service\". Writes the service's definition in your workshop (where the API is, how the secret travels, the test, the guide for the agents, the help), checks it against Allkin's standard, and tells the user where to connect it.",
       "author": "Allkin",
       "category": "code",
-      "updatedAt": "2026-11-15T12:52:07.522Z",
+      "updatedAt": "2026-11-15T13:52:07+01:00",
       "locales": {
         "en": {
           "name": "Create services",
@@ -607,18 +607,18 @@
         },
         {
           "path": "SKILL.md",
-          "size": 9740,
-          "sha256": "c02e8bf617fc338d127c6f508086651583876f09a96fcb042873410302f9a3eb"
+          "size": 10042,
+          "sha256": "15f4c693e05e1fa3462d94c9319b11c8b8d69ef21df577c4ee64cf696b8f6ccf"
         },
         {
           "path": "references/SERVICE-STANDARD.md",
-          "size": 9469,
-          "sha256": "b8ff08ce01c8c6d6e5215b024a869343dae984e0fccf0ad83677c38212d21450"
+          "size": 10968,
+          "sha256": "e7c96ff66abce8eb640d3e5b329c0653696703f33ee5b2991ef16f90659595c2"
         },
         {
           "path": "skill.json",
           "size": 1926,
-          "sha256": "c97c4aaa7ea5b04989d1f8fb9a66e41e6615c224b5799e2a969322cc143108f0"
+          "sha256": "8dfbf854db9970efa7e4516e67a5d74ad77661c638be942a0c0d06d4fff60a20"
         }
       ]
     },
@@ -1097,7 +1097,7 @@
       "description": "Use when the user wants to bring agents from another agent platform into Allkin — OpenClaw (ex Clawdbot, Moltbot), NanoClaw — or uploads an archive of such an install. Reads the archive without its secrets, inventories agents, roles, memories, competences, scheduled tasks and channels, rewrites each agent for Allkin and hands back .allkin archives to import plus a to-do list.",
       "author": "Allkin",
       "category": "operations",
-      "updatedAt": "2026-11-06T10:35:20+01:00",
+      "updatedAt": "2026-11-15T13:52:07+01:00",
       "locales": {
         "en": {
           "name": "Migrate agents",
@@ -1201,7 +1201,7 @@
       "description": "Use when the user hands over, names or asks for a Word or Excel document (.docx, .xlsx) — read a contract, fill in a form, correct a letter, update a table, add rows to a workbook, restyle a report, \"make me a Word document\", \"put this in Excel\". Reads the document as numbered blocks or cells, changes it in place without damaging what it does not touch, and creates new ones.",
       "author": "Allkin",
       "category": "writing",
-      "updatedAt": "2026-11-15T12:52:07.546Z",
+      "updatedAt": "2026-11-15T13:52:07+01:00",
       "locales": {
         "en": {
           "name": "Word and Excel documents",

@@ -80,11 +80,12 @@ connected, tested or changed through them.
 3. **Look at what exists.** `list_projects`. A request about a service you already made is a
    modification of that project, never a second one beside it.
 4. **Choose the id** — lowercase letters, digits, hyphens; never renamed afterwards; **not the id
-   of a service Allkin already ships** (the check refuses it: pick another, such as
+   of one of Allkin's own services** (the check refuses it: pick another, such as
    `<product>-<what it covers>`).
 5. **Write** `workshop/services/<id>/`, complete files, each written once:
    - `service.json` — in English: identity, address, authentication, presentation, the check,
-     the safeguards, `agentGuide`, `docUrl`, and `locales` with the description in fr, es, de;
+     the safeguards, `agentGuide`, `docUrl`, and `locales` with every text the user reads — the
+     description, the labels and warnings of the safeguards, the labels of the form — in fr, es, de;
    - `README.md` in English, then `README-FR.md`, `README-ES.md`, `README-DE.md`: where to create
      the key or the application on the service's side, with the exact names of its screens; which
      permissions or scopes to tick; what to paste where in Allkin; what a failed test usually
@@ -116,7 +117,8 @@ connected, tested or changed through them.
 - **An `agentGuide` a model can act on**: a condensed note in English — the calls that cover real
   use, the shape of a body, pagination, the trap to avoid —, not the documentation. `docUrl`
   gives the rest to agents that read the web.
-- **A description in four languages** (`description` in English, `locales.fr`, `.es`, `.de`).
+- **Its texts in four languages**: English in the definition; `locales.fr`, `.es`, `.de` mirror
+  it for `description` and every label, note, hint and warning the user reads (the standard, §5).
 - **A mark**: `logo` only with the brand's exact path (the `d` of its filled path on a 24×24
   grid, Simple Icons format) — never drawn from memory: without it, a simple stroked `glyph`, and
   `color` in the brand's colour.
@@ -139,7 +141,8 @@ only data.
 
 ## What a service cannot be
 
-Request signing and mail transport (IMAP, SMTP) are not available to a declarative service. An
+Request signing, the mail transport (IMAP, SMTP), a machine over SSH and the Home Assistant tools
+are reserved to Allkin's own services: a definition of yours that declares one is refused. An
 API that needs code — a protocol of its own, a call built from another's answer in a way no field
 declares — is not a service: say so plainly rather than approximating it.
 
