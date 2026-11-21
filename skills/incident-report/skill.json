@@ -1,7 +1,8 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Allkin",
   "category": "operations",
+  "drawing": "journal",
   "locales": {
     "en": {
       "name": "Incident report",

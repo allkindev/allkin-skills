@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "operations",
+  "drawing": "terminal",
+  "locales": {
+    "en": {
+      "name": "System administration",
+      "description": "Administer any system — every Linux distribution and init, macOS, FreeBSD, Windows: software, updates, services, users, disks, firewall and SSH, automation scripts. Detect the system first, back up, change little, verify, keep the way back."
+    },
+    "fr": {
+      "name": "Administration système",
+      "description": "Administrer n'importe quel système — toutes les distributions Linux et leurs systèmes d'init, macOS, FreeBSD, Windows : logiciels, mises à jour, services, utilisateurs, disques, pare-feu et SSH, scripts d'automatisation. D'abord reconnaître le système, sauvegarder, changer peu, vérifier, garder le chemin du retour."
+    },
+    "es": {
+      "name": "Administración de sistemas",
+      "description": "Administrar cualquier sistema — todas las distribuciones Linux y sus sistemas de arranque, macOS, FreeBSD, Windows: software, actualizaciones, servicios, usuarios, discos, cortafuegos y SSH, scripts de automatización. Primero reconocer el sistema, hacer copia, cambiar poco, verificar, conservar la vuelta atrás."
+    },
+    "de": {
+      "name": "Systemadministration",
+      "description": "Jedes System verwalten — alle Linux-Distributionen und Init-Systeme, macOS, FreeBSD, Windows: Software, Updates, Dienste, Benutzer, Festplatten, Firewall und SSH, Automatisierungsskripte. Zuerst das System erkennen, sichern, wenig ändern, prüfen, den Rückweg behalten."
+    }
+  }
+}

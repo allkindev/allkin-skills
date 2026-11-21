@@ -1,7 +1,8 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Allkin",
   "category": "code",
+  "drawing": "puzzle",
   "locales": {
     "en": {
       "name": "Create integrations",

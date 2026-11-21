@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "author": "Allkin",
+  "category": "operations",
+  "drawing": "sliders",
+  "locales": {
+    "en": {
+      "name": "Allkin administration",
+      "description": "Allkin inside out: its installation, service, logs, updates, backups, event log, pages and settings — what the agent does with its own tools, the exact path in the interface for what is yours, and the lines it never crosses."
+    },
+    "fr": {
+      "name": "Administration d'Allkin",
+      "description": "Allkin de fond en comble : son installation, son service, ses journaux, ses mises à jour, ses sauvegardes, son journal d'événements, ses pages et ses réglages — ce que l'agent fait avec ses propres outils, le chemin exact dans l'interface pour ce qui vous revient, et les limites qu'il ne franchit jamais."
+    },
+    "es": {
+      "name": "Administración de Allkin",
+      "description": "Allkin a fondo: su instalación, su servicio, sus registros, sus actualizaciones, sus copias de seguridad, su registro de eventos, sus páginas y ajustes — lo que el agente hace con sus propias herramientas, la ruta exacta en la interfaz para lo que le corresponde a usted, y los límites que nunca cruza."
+    },
+    "de": {
+      "name": "Allkin-Administration",
+      "description": "Allkin von Grund auf: Installation, Dienst, Protokolle, Updates, Sicherungen, Ereignisprotokoll, Seiten und Einstellungen — was der Agent mit seinen eigenen Werkzeugen erledigt, der genaue Weg in der Oberfläche für das, was Ihnen zusteht, und die Grenzen, die er nie überschreitet."
+    }
+  }
+}

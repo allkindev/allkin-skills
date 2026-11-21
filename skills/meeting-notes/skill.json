@@ -1,7 +1,8 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Allkin",
   "category": "organisation",
+  "drawing": "notebook",
   "locales": {
     "en": {
       "name": "Meeting notes",

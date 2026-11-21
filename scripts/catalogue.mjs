@@ -246,11 +246,12 @@ const services = existsSync(SERVICES_DIR)
 
 /* Skills (see SKILL-STANDARD.md): a folder skills/<id>/ holding a standard
    SKILL.md (header `name` / `description`, then the procedure), Allkin's own
-   skill.json (version 1.0.N, author, icon, category, translations) and its
+   skill.json (version 1.0.N, author, icon, category, drawing, translations) and its
    README files. Listed with its files and their digests, like a plugin;
    Allkin downloads a skill when an agent is given it (2026-11-03). The user
    reads a skill as a "competence". */
 const SKILLS_DIR = join(ROOT, "skills");
+const SKILL_DRAWING_PATTERN = /^[a-z][A-Za-z]{0,31}$/;
 
 /** The two keys of the SKILL.md header, one per line each; null when the header is missing. */
 function readSkillHeader(text) {
@@ -288,6 +289,11 @@ function readSkill(id) {
   if (!VERSION_PATTERN.test(String(m.version ?? ""))) failSkill("skill.json : version attendue 1.0.N (1.0.0, 1.0.1, 1.0.12…).");
   if (m.category === undefined) warnings.push(`skills/${id} : skill.json ne donne pas de category — Allkin la rangera sous « other » (Autres).`);
   else if (!SKILL_CATEGORIES.has(m.category)) failSkill(`skill.json : catégorie inconnue « ${m.category} » — attendu l'une de : ${[...SKILL_CATEGORIES].join(", ")}.`);
+  // Its drawing on the Competences page, in the colour of its category: a name
+  // of Allkin's object icons (web/object-icons.js); unknown to Allkin, it falls
+  // back to the category's own.
+  if (m.drawing === undefined) warnings.push(`skills/${id} : skill.json ne donne pas de drawing — Allkin dessinera l'icône de sa catégorie.`);
+  else if (!SKILL_DRAWING_PATTERN.test(String(m.drawing))) failSkill(`skill.json : drawing « ${m.drawing} » refusé — un nom des dessins d'Allkin (magnifier, chart, house…).`);
   const files = listFiles(dir).map(({ path, st }) => {
     if (!path.split("/").every((s) => SEGMENT_PATTERN.test(s))) failSkill(`nom de fichier refusé par Allkin : ${path}`);
     if (st.size > MAX_FILE_BYTES) failSkill(`${path} dépasse 20 Mo.`);
@@ -317,6 +323,7 @@ function readSkill(id) {
     ...(m.homepage ? { homepage: m.homepage } : {}),
     ...(icon ? { icon } : {}),
     ...(SKILL_CATEGORIES.has(m.category) ? { category: m.category } : {}),
+    ...(SKILL_DRAWING_PATTERN.test(String(m.drawing ?? "")) ? { drawing: m.drawing } : {}),
     ...stamp(dir),
     ...(Object.keys(locales).length ? { locales } : {}),
     files,

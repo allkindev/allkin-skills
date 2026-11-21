@@ -1,7 +1,8 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Allkin",
   "category": "writing",
+  "drawing": "markdown",
   "locales": {
     "en": {
       "name": "Markdown tables",

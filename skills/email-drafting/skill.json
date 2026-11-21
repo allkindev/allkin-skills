@@ -1,7 +1,8 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Allkin",
   "category": "communication",
+  "drawing": "plane",
   "locales": {
     "en": {
       "name": "E-mail drafting",

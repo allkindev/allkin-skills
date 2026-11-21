@@ -3,12 +3,83 @@
   "plugins": [],
   "skills": [
     {
+      "id": "allkin-admin",
+      "name": "allkin-admin",
+      "version": "1.0.0",
+      "description": "Use for anything about Allkin itself on this machine — how it is installed and where its files are, its service, its logs, its updates and backups, its agents, actions, integrations, services, competences, settings, firewall and SSH pages, its event log — or when the user asks \"how do I … in Allkin\", \"why does Allkin …\", \"set Allkin up so that …\", \"Allkin is down / slow / broken\". What you do yourself with your tools, what you hand to the user as a precise path in the interface, and the lines you never cross.",
+      "author": "Allkin",
+      "category": "operations",
+      "drawing": "sliders",
+      "updatedAt": "2026-11-21T06:33:51.820Z",
+      "locales": {
+        "en": {
+          "name": "Allkin administration",
+          "description": "Allkin inside out: its installation, service, logs, updates, backups, event log, pages and settings — what the agent does with its own tools, the exact path in the interface for what is yours, and the lines it never crosses."
+        },
+        "fr": {
+          "name": "Administration d'Allkin",
+          "description": "Allkin de fond en comble : son installation, son service, ses journaux, ses mises à jour, ses sauvegardes, son journal d'événements, ses pages et ses réglages — ce que l'agent fait avec ses propres outils, le chemin exact dans l'interface pour ce qui vous revient, et les limites qu'il ne franchit jamais."
+        },
+        "es": {
+          "name": "Administración de Allkin",
+          "description": "Allkin a fondo: su instalación, su servicio, sus registros, sus actualizaciones, sus copias de seguridad, su registro de eventos, sus páginas y ajustes — lo que el agente hace con sus propias herramientas, la ruta exacta en la interfaz para lo que le corresponde a usted, y los límites que nunca cruza."
+        },
+        "de": {
+          "name": "Allkin-Administration",
+          "description": "Allkin von Grund auf: Installation, Dienst, Protokolle, Updates, Sicherungen, Ereignisprotokoll, Seiten und Einstellungen — was der Agent mit seinen eigenen Werkzeugen erledigt, der genaue Weg in der Oberfläche für das, was Ihnen zusteht, und die Grenzen, die er nie überschreitet."
+        }
+      },
+      "files": [
+        {
+          "path": "README-DE.md",
+          "size": 1177,
+          "sha256": "768d05297a9a9eb28d85c99fd4d0d3098c587b0956e9b43d9c1db76d6aa434ac"
+        },
+        {
+          "path": "README-ES.md",
+          "size": 1119,
+          "sha256": "be4aca54afec44fbc83603ca46bf3ed5e50d1c3f7a377195340533497f055d30"
+        },
+        {
+          "path": "README-FR.md",
+          "size": 1164,
+          "sha256": "887b5f8332eeef6532f0f847fd6a4e61b447716d33beae8ca3f44186a80c4613"
+        },
+        {
+          "path": "README.md",
+          "size": 958,
+          "sha256": "35993e5fe77c02bded4322059119bccf851d85deaa588ef03e116d50dc88b297"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 8432,
+          "sha256": "1bb3e730a5a73f22886c3bc63357ef4260f95f7d1f847d8905c1095fbb0dd699"
+        },
+        {
+          "path": "references/ALLKIN-FILES.md",
+          "size": 7784,
+          "sha256": "808c60fd5b308078baf1b7f5ce11da42e84ae7223bd7008eac89fcfd8aa14e72"
+        },
+        {
+          "path": "references/ALLKIN-INTERFACE.md",
+          "size": 6842,
+          "sha256": "412b62825986df5484a7ff691225dfe9f0f4091d064b4aa6b0575a75a97366c5"
+        },
+        {
+          "path": "skill.json",
+          "size": 1582,
+          "sha256": "913b2a680a25bca9490d2d3abdfa8d913689a8bada76c602b44412e8ce506a83"
+        }
+      ]
+    },
+    {
       "id": "clear-answers",
       "name": "clear-answers",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Use for every answer longer than a few lines, and whenever the user asks to shorten, clarify, restructure or \"make it readable\". Rules for answers that are read once on a screen or a phone: the point first, short sentences, lists for parallel items, no padding.",
       "author": "Allkin",
       "category": "writing",
+      "drawing": "sparkle",
       "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
@@ -56,18 +127,19 @@
         },
         {
           "path": "skill.json",
-          "size": 1060,
-          "sha256": "c51cdb1f6f013c5f7dd578544ff71276495d853794bd3769ff5277d031ac5de9"
+          "size": 1084,
+          "sha256": "3a7f4d771a25774315cf5b716e1088a8b08c57b21597dd8bb224dae0b35fd8a8"
         }
       ]
     },
     {
       "id": "code-review",
       "name": "code-review",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Use when the user asks to review, check, audit or critique code, a diff, a pull request or a script, or asks \"is this correct / safe / good\". Produces findings ranked by severity, each with the line and a concrete failure case.",
       "author": "Allkin",
       "category": "code",
+      "drawing": "magnifier",
       "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
@@ -115,18 +187,19 @@
         },
         {
           "path": "skill.json",
-          "size": 927,
-          "sha256": "95f615b9f3f2b4408066c6b009d3533d99eae400910d09a91e389439a4043b47"
+          "size": 953,
+          "sha256": "995f969a1459696aeb1e3444207e3f4e814edf3b1f813c5464fced6f853f8a56"
         }
       ]
     },
     {
       "id": "community-management",
       "name": "community-management",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Use when the user talks about their social networks — X, Facebook, Instagram, Threads, LinkedIn, YouTube, TikTok, Mastodon, Bluesky, Pinterest —, about posts to write or schedule, followers, comments or mentions to answer, an editorial line or calendar, hashtags, or social figures and reports. Writes, adapts and checks posts per network, triages the inbox, measures; publishes only through the networks' services, each post approved by the user.",
       "author": "Allkin",
       "category": "communication",
+      "drawing": "forum",
       "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
@@ -469,8 +542,8 @@
         },
         {
           "path": "skill.json",
-          "size": 1476,
-          "sha256": "afab9c1d319eaac9d0e19d40cd5b37a54c77c634fe245a2bd2f46f1d2b8be732"
+          "size": 1498,
+          "sha256": "b39fe3dbe53ab730801662359ab757077d4ff6f8afe8b3644cec809ced9485e6"
         },
         {
           "path": "tests/calendar-registry.test.mjs",
@@ -492,11 +565,12 @@
     {
       "id": "create-integration",
       "name": "create-integration",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Use when the user asks you to create, change, fix or debug an integration for Allkin — \"make me an integration that…\", \"add a page to Allkin for…\", \"integrate this software\", \"my integration shows an error\", \"add a setting to the integration you made\". Writes the project in your workshop (manifest, page, scripts, translations, documentation, icon), checks it against Allkin's standard, and tells the user how to install or update it.",
       "author": "Allkin",
       "category": "code",
-      "updatedAt": "2026-11-15T13:52:07+01:00",
+      "drawing": "puzzle",
+      "updatedAt": "2026-11-16T23:25:48+01:00",
       "locales": {
         "en": {
           "name": "Create integrations",
@@ -553,19 +627,20 @@
         },
         {
           "path": "skill.json",
-          "size": 1732,
-          "sha256": "e64f0994870ad1f929145b9dbd9ad280a5d4dffbe501a728c36993761fc5ba28"
+          "size": 1755,
+          "sha256": "bed26f8d20e108b0693a72f1aedecb1695a3d49b41b7fbfe4175ef80b406110f"
         }
       ]
     },
     {
       "id": "create-service",
       "name": "create-service",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Use when the user asks you to connect Allkin to an external API — \"add a service for…\", \"let my agents use the API of…\", \"create a connector to…\", \"the service you made fails its test\", \"add a safeguard to that service\". Writes the service's definition in your workshop (where the API is, how the secret travels, the test, the guide for the agents, the help), checks it against Allkin's standard, and tells the user where to connect it.",
       "author": "Allkin",
       "category": "code",
-      "updatedAt": "2026-11-15T13:52:07+01:00",
+      "drawing": "plug",
+      "updatedAt": "2026-11-16T23:25:48+01:00",
       "locales": {
         "en": {
           "name": "Create services",
@@ -617,18 +692,19 @@
         },
         {
           "path": "skill.json",
-          "size": 1926,
-          "sha256": "8dfbf854db9970efa7e4516e67a5d74ad77661c638be942a0c0d06d4fff60a20"
+          "size": 1947,
+          "sha256": "8f79ba761b6658ca296b3c0e55610d6e831d93e5f62a39c8a0d915b64f49197c"
         }
       ]
     },
     {
       "id": "data-analysis",
       "name": "data-analysis",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Use when the user hands over a table — a CSV, a TSV or an Excel file (.xlsx) — or asks for figures from one: totals, averages, a breakdown by category or by month, a ranking, a comparison, a trend, a chart, \"what do these numbers say\". Profiles the file, computes every figure with scripts (never by reading the rows), draws plain charts as SVG, and writes a short note of what the numbers show.",
       "author": "Allkin",
       "category": "analysis",
+      "drawing": "chart",
       "updatedAt": "2026-11-09T22:17:36+01:00",
       "locales": {
         "en": {
@@ -701,8 +777,8 @@
         },
         {
           "path": "skill.json",
-          "size": 1192,
-          "sha256": "cf73052d8010a0514f752b20e5faae94c3e5c48a1d80353d8e62931bbc84fe9e"
+          "size": 1214,
+          "sha256": "dc40f97219b211287d96f57f480433552c8a2e30ae0fd7a54ff466cbda313474"
         },
         {
           "path": "tests/scripts.test.mjs",
@@ -714,10 +790,11 @@
     {
       "id": "email-drafting",
       "name": "email-drafting",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Use when the user asks to write, reply to, rephrase or soften an e-mail, a letter or a message to someone — a client, a supplier, a colleague, an administration. Produces a ready-to-send draft with subject line, in the right register.",
       "author": "Allkin",
       "category": "communication",
+      "drawing": "plane",
       "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
@@ -765,18 +842,19 @@
         },
         {
           "path": "skill.json",
-          "size": 1023,
-          "sha256": "dc2110ea9b7ba720c9a0ba828fc22e37fdd316bbe5e8c59cb5ede7e435170e28"
+          "size": 1045,
+          "sha256": "f57d65751c1d7687c2b05af0a08800b629faaf11a6fe5b3566914e0ce3c668bb"
         }
       ]
     },
     {
       "id": "home-assistant-admin",
       "name": "home-assistant-admin",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Use when the user asks to add, pair, rename, tidy, automate or display anything in Home Assistant — \"listen for new Zigbee / Z-Wave / RFXCOM devices\", \"rename my entities properly\", \"put this in the kitchen\", \"create an automation / a script / a scene\", \"make me a dashboard\", \"what is wrong with my installation\". The method and the exact commands to administer a Home Assistant installation through Allkin's Home Assistant service, without breaking what already runs.",
       "author": "Allkin",
       "category": "operations",
+      "drawing": "house",
       "updatedAt": "2026-11-10T23:47:24+01:00",
       "locales": {
         "en": {
@@ -849,18 +927,19 @@
         },
         {
           "path": "skill.json",
-          "size": 1728,
-          "sha256": "5b69cd05df02f5597b0c2e5114f560004bc9c385cc25e08b873b4e5f4de09e98"
+          "size": 1750,
+          "sha256": "39e981abbc085e2b68333aa74b0ae004358231187d11355876434f5d9c0eee16"
         }
       ]
     },
     {
       "id": "incident-report",
       "name": "incident-report",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Use when something is broken or slow on a machine or a service — \"it does not work\", \"the site is down\", \"the disk is full\", an error in a log — and the user wants it diagnosed, fixed or written up. Drives a step-by-step diagnosis and produces an incident report.",
       "author": "Allkin",
       "category": "operations",
+      "drawing": "journal",
       "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
@@ -908,18 +987,19 @@
         },
         {
           "path": "skill.json",
-          "size": 1048,
-          "sha256": "a552e6f9c16bec6c63d4b7d7e6fdebef96ebc870a07b7731d6069e22d10f3733"
+          "size": 1072,
+          "sha256": "e217f95ec3fe02f9ef0d5ac42a735a76a29761557f3f5b920ca782153cef338b"
         }
       ]
     },
     {
       "id": "manage-actions",
       "name": "manage-actions",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Use when the user wants something done later, again and again, or whenever something happens on the machine — \"every morning\", \"remind me tomorrow\", \"each Monday\", \"warn me when a sign-in fails\", \"when an agent fails, look into it\", \"after an update\". Creates, reviews and deletes Allkin's actions, at a time or on an event of the event log.",
       "author": "Allkin",
       "category": "operations",
+      "drawing": "clock",
       "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
@@ -967,18 +1047,19 @@
         },
         {
           "path": "skill.json",
-          "size": 1285,
-          "sha256": "330ec99766bc252e7d8ba05b0e9b4ae811454f76a0878866e48155d3b1121961"
+          "size": 1307,
+          "sha256": "9c9ea21bbd3e892a7b06c776eb59635677da069cdcdc1762077fe9af888b2b85"
         }
       ]
     },
     {
       "id": "markdown-tables",
       "name": "markdown-tables",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "description": "Use when the answer compares several items along the same criteria, lists options with their properties, or when the user asks for a table. Produces a Markdown table that reads well in Allkin's conversation.",
       "author": "Allkin",
       "category": "writing",
+      "drawing": "markdown",
       "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
@@ -1026,18 +1107,19 @@
         },
         {
           "path": "skill.json",
-          "size": 964,
-          "sha256": "06690cfcd0f577b4b3408d0a7ced3c4f5f980508c8e375c9743799487ac233ca"
+          "size": 989,
+          "sha256": "8a53fcf2287e0aa917f483d5fff5819a18d0462f8a409864f7535d68b8647a5d"
         }
       ]
     },
     {
       "id": "meeting-notes",
       "name": "meeting-notes",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "description": "Use when the user hands over a transcript, a recording's text or rough notes of a meeting and wants minutes, a summary, the decisions or the action items. Produces structured minutes with owners and deadlines.",
       "author": "Allkin",
       "category": "organisation",
+      "drawing": "notebook",
       "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
@@ -1085,18 +1167,19 @@
         },
         {
           "path": "skill.json",
-          "size": 999,
-          "sha256": "165a608f4f3441b8377099fa6f479bd3601a6084076d4501d5f731e4c81a03ed"
+          "size": 1024,
+          "sha256": "87521d47b7061888e7decbfc50e2941bd29d8e994da9cdbc895bc92ad92a69ee"
         }
       ]
     },
     {
       "id": "migrate-agents",
       "name": "migrate-agents",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Use when the user wants to bring agents from another agent platform into Allkin — OpenClaw (ex Clawdbot, Moltbot), NanoClaw — or uploads an archive of such an install. Reads the archive without its secrets, inventories agents, roles, memories, competences, scheduled tasks and channels, rewrites each agent for Allkin and hands back .allkin archives to import plus a to-do list.",
       "author": "Allkin",
       "category": "operations",
+      "drawing": "people",
       "updatedAt": "2026-11-15T13:52:07+01:00",
       "locales": {
         "en": {
@@ -1184,8 +1267,8 @@
         },
         {
           "path": "skill.json",
-          "size": 1252,
-          "sha256": "01db1710d121472fb40292505db2fe33dec36b4538a6f856db6cbeefe2988d32"
+          "size": 1275,
+          "sha256": "dabb5716ba72191b5729d333eec78c570227a64fdd7afc07272926836749f19e"
         },
         {
           "path": "tests/migrate.test.mjs",
@@ -1197,10 +1280,11 @@
     {
       "id": "office-documents",
       "name": "office-documents",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Use when the user hands over, names or asks for a Word or Excel document (.docx, .xlsx) — read a contract, fill in a form, correct a letter, update a table, add rows to a workbook, restyle a report, \"make me a Word document\", \"put this in Excel\". Reads the document as numbered blocks or cells, changes it in place without damaging what it does not touch, and creates new ones.",
       "author": "Allkin",
       "category": "writing",
+      "drawing": "sheet",
       "updatedAt": "2026-11-15T13:52:07+01:00",
       "locales": {
         "en": {
@@ -1248,18 +1332,19 @@
         },
         {
           "path": "skill.json",
-          "size": 1430,
-          "sha256": "245b3d7c2af9e8b40e79281378953995ddccedf2763d9423ba28f3b09480db83"
+          "size": 1452,
+          "sha256": "6d4bc6a21616f6fe1067ff6622cffc9bde9c9144224277827c69aca0b0b4dee7"
         }
       ]
     },
     {
       "id": "project-plan",
       "name": "project-plan",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Use when the user states a goal, a project or a piece of work to organise and wants a plan, milestones, a task list, a schedule or a risk review. Produces a plan file that can be followed and updated.",
       "author": "Allkin",
       "category": "organisation",
+      "drawing": "checklist",
       "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
@@ -1307,18 +1392,19 @@
         },
         {
           "path": "skill.json",
-          "size": 892,
-          "sha256": "7a886d91f3df4863d6ae921ee55dcbecd054c8b8034d238c111f63b45ec073f2"
+          "size": 918,
+          "sha256": "7fe05c76b80168c2a129b601b3414907ca2ab3ae490e06ac6a4ebc294536fd5a"
         }
       ]
     },
     {
       "id": "research-brief",
       "name": "research-brief",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Use when the user asks to look something up, compare products or options, check a fact, find out \"what is the state of\", or wants a summary of what is known on a topic. Needs web access. Produces a short brief with sources, dated.",
       "author": "Allkin",
       "category": "analysis",
+      "drawing": "scroll",
       "updatedAt": "2026-11-03T11:56:50+01:00",
       "locales": {
         "en": {
@@ -1366,18 +1452,19 @@
         },
         {
           "path": "skill.json",
-          "size": 1079,
-          "sha256": "d3e490d8cc0ecd06210882d1442398ed2b4e77222372249278b8c03cd1184e95"
+          "size": 1102,
+          "sha256": "72360afea6ea1aec683e62f2ba9a7da2540bc52b6fea1641832b12dbf2752809"
         }
       ]
     },
     {
       "id": "server-health-check",
       "name": "server-health-check",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Use when the user asks to check, audit or watch a Linux server or several — \"is everything fine on\", \"make your round\", \"check the disk / the backups / the certificates / the updates\", a regular health check — or when an action wakes you for a round. A read-only checklist with its commands and thresholds, readings kept from one round to the next, and a report sorted by urgency.",
       "author": "Allkin",
       "category": "operations",
+      "drawing": "cpu",
       "updatedAt": "2026-11-09T22:17:36+01:00",
       "locales": {
         "en": {
@@ -1425,18 +1512,99 @@
         },
         {
           "path": "skill.json",
-          "size": 1337,
-          "sha256": "b20343395862d10d2e888c9538b81e48dee0918886dad3ba0e2d1414b94b4540"
+          "size": 1357,
+          "sha256": "4897b65875985fc2ccfe303ed202edfd5ed0d658fc7f2fd397d1cb3e893feda9"
+        }
+      ]
+    },
+    {
+      "id": "system-administration",
+      "name": "system-administration",
+      "version": "1.0.0",
+      "description": "Use whenever the machine itself must be changed or looked after — install, update or remove software, update the system, manage services, users and groups, disks, firewall rules, SSH, network, scheduled maintenance, or write an automation script — on any system (Debian, Ubuntu, Fedora, RHEL, Arch, openSUSE, Alpine, Void, Gentoo, Solus, WSL, containers; macOS, FreeBSD and Windows too). Detect the system first, then the safe way to change it: back up, change little, verify, keep the way back.",
+      "author": "Allkin",
+      "category": "operations",
+      "drawing": "terminal",
+      "updatedAt": "2026-11-21T06:33:52.101Z",
+      "locales": {
+        "en": {
+          "name": "System administration",
+          "description": "Administer any system — every Linux distribution and init, macOS, FreeBSD, Windows: software, updates, services, users, disks, firewall and SSH, automation scripts. Detect the system first, back up, change little, verify, keep the way back."
+        },
+        "fr": {
+          "name": "Administration système",
+          "description": "Administrer n'importe quel système — toutes les distributions Linux et leurs systèmes d'init, macOS, FreeBSD, Windows : logiciels, mises à jour, services, utilisateurs, disques, pare-feu et SSH, scripts d'automatisation. D'abord reconnaître le système, sauvegarder, changer peu, vérifier, garder le chemin du retour."
+        },
+        "es": {
+          "name": "Administración de sistemas",
+          "description": "Administrar cualquier sistema — todas las distribuciones Linux y sus sistemas de arranque, macOS, FreeBSD, Windows: software, actualizaciones, servicios, usuarios, discos, cortafuegos y SSH, scripts de automatización. Primero reconocer el sistema, hacer copia, cambiar poco, verificar, conservar la vuelta atrás."
+        },
+        "de": {
+          "name": "Systemadministration",
+          "description": "Jedes System verwalten — alle Linux-Distributionen und Init-Systeme, macOS, FreeBSD, Windows: Software, Updates, Dienste, Benutzer, Festplatten, Firewall und SSH, Automatisierungsskripte. Zuerst das System erkennen, sichern, wenig ändern, prüfen, den Rückweg behalten."
+        }
+      },
+      "files": [
+        {
+          "path": "README-DE.md",
+          "size": 1341,
+          "sha256": "46224a4f721343a8964de8ec027dd44928f8f43cf8814d3d947c87b93d42c68c"
+        },
+        {
+          "path": "README-ES.md",
+          "size": 1269,
+          "sha256": "60c19d5fa3369719199e426aca73c6fd231a016491a7372ca3301c09859f0481"
+        },
+        {
+          "path": "README-FR.md",
+          "size": 1398,
+          "sha256": "21deb699337b0f0d51d2a88afaa24f5a1b86932e550956360069cb3d9632f35d"
+        },
+        {
+          "path": "README.md",
+          "size": 1155,
+          "sha256": "e60adb45256aec4b39fd65857d091ba4cbe1db5552c6ac3ec3855810a4c58581"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 6724,
+          "sha256": "e61866f313eabb9cc4fbdc9974a42ad0a1bd2f00593f04ded18c06d3d412c131"
+        },
+        {
+          "path": "references/FIREWALL.md",
+          "size": 5610,
+          "sha256": "f8b0c1ac43d9f3b63280403aec6ff9720a2c470dfcb0c267bb96e76079c3279b"
+        },
+        {
+          "path": "references/LINUX.md",
+          "size": 7053,
+          "sha256": "87adbdfe2e70f30e71e7920e9786f6ecabde1cbc491b338eefd76b5b5d0158fb"
+        },
+        {
+          "path": "references/OTHER-SYSTEMS.md",
+          "size": 3888,
+          "sha256": "027acde6f17dfb87cfc15abf80a273f5b40729af5cd45c076a531c0ee3ed5dde"
+        },
+        {
+          "path": "references/SCRIPTS.md",
+          "size": 3509,
+          "sha256": "8ae445005ae6c0aaceae54ca7783a9144d20f86041c4d6e1802ad408d4b5297a"
+        },
+        {
+          "path": "skill.json",
+          "size": 1609,
+          "sha256": "caedf98804e80ff3973d2dcf611fe1683ce44670c91f926b0c38cb1f3c499e7b"
         }
       ]
     },
     {
       "id": "topic-watch",
       "name": "topic-watch",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Use when the user wants a subject followed over time — competitors, prices, a product, a technology, a regulation, a call for tenders, mentions of a name — \"keep an eye on\", \"tell me when\", \"every week\", \"what's new on\", or when an action wakes you for a watch run. Sets a watch up in files, then at each run reports only what is new since the last one. Needs web access.",
       "author": "Allkin",
       "category": "analysis",
+      "drawing": "globe",
       "updatedAt": "2026-11-09T22:17:36+01:00",
       "locales": {
         "en": {
@@ -1484,18 +1652,19 @@
         },
         {
           "path": "skill.json",
-          "size": 1211,
-          "sha256": "0d8634044f3b1bb08f6488313239ef28fc01635d4f9d17a9885e68e22fbcda26"
+          "size": 1233,
+          "sha256": "57f47740ab87688c8307af33df401fdeeab658dc62ecb69590afeb0094b9dd5d"
         }
       ]
     },
     {
       "id": "typography",
       "name": "typography",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Use whenever you write or revise a text meant to be read, published or printed in French, English, Spanish or German — and when the user asks to fix quotes, spaces, apostrophes, dashes, numbers or dates. The typographic rules of each language, with the exact characters to type.",
       "author": "Allkin",
       "category": "writing",
+      "drawing": "palette",
       "updatedAt": "2026-11-09T22:17:36+01:00",
       "locales": {
         "en": {
@@ -1543,18 +1712,19 @@
         },
         {
           "path": "skill.json",
-          "size": 1163,
-          "sha256": "4fadb55a75a0d10fc8c6cff824604a4164cb44da720eb2d7b1e7f795a7de5a25"
+          "size": 1187,
+          "sha256": "4c8338089eb1de5fc2df91e74a33288aacdb43941b6c44e049349d62fa8a520d"
         }
       ]
     },
     {
       "id": "writing-revision",
       "name": "writing-revision",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Use before handing over any text meant to be read by someone else — an article, a page, a letter, a post, a report, a speech, a description — and whenever the user asks to proofread, revise, improve, tighten, rewrite or \"make it sound less like AI\". Revises a draft in separate passes (structure, sentence, machine tics, typography) and reports what changed.",
       "author": "Allkin",
       "category": "writing",
+      "drawing": "page",
       "updatedAt": "2026-11-09T22:17:36+01:00",
       "locales": {
         "en": {
@@ -1602,8 +1772,8 @@
         },
         {
           "path": "skill.json",
-          "size": 1336,
-          "sha256": "5d59104bf44ab011133e05ebe899abfdd8fb1e0a7378b71588356d6295629240"
+          "size": 1357,
+          "sha256": "d65f68927765376fa54b3ae742c4fcf6805965847b51292445ee670721aadee2"
         }
       ]
     }
